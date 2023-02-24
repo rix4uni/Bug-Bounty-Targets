@@ -1,0 +1,6304 @@
+{
+  "targets": [
+    {
+      "name": "84codes",
+      "program_url": "https://www.84codes.com/security",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "cloudamqp.com",
+        "cloudkarafka.com",
+        "elephantsql.com",
+        "cloudmqtt.com"
+      ],
+      "out_of_scope":[
+        "84codes.com",
+        "cloudamqp.com",
+        "cloudkarafka.com",
+        "elephantsql.com",
+        "cloudmqtt.com",
+        "docs.cloudamqp.com",
+        "docs.cloudkarafka.com",
+        "docs.elephantsql.com",
+        "docs.cloudmqtt.com",
+        "status.cloudamqp.com",
+        "status.cloudkarafka.com",
+        "status.elephantsql.com",
+        "status.cloudmqtt.com",
+        "email.cloudamqp.com",
+        "email.elephantsql.com",
+        "manager.cloudkarafka.com"
+      ]
+    },
+    {
+      "name": "AAX",
+      "program_url": "https://hackenproof.com/aax/aax",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "aax.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Acorns-Grow",
+      "program_url": "https://bugcrowd.com/acorns",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "acorns.com"
+      ],
+      "out_of_scope":[
+        "store.acorns.com",
+        "share.acorns.com"
+      ]
+    },
+    {
+      "name": "Acronis",
+      "program_url": "https://hackerone.com/acronis",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "acronis.com",
+        "5nine.com",
+        "devicelock.com",
+        "acronis.work"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Adafruit",
+      "program_url": "https://www.adafruit.com/reportingsecurityissues",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "adafruit.com",
+        "adafruitdaily.com"
+      ],
+      "out_of_scope":[
+        "makecode.adafruit.com"
+      ]
+    },
+    {
+      "name": "Adobe",
+      "program_url": "https://hackerone.com/adobe",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "adobe.com",
+        "frame.io",
+        "magento.com",
+        "echosign.com",
+        "acrobat.com",
+        "adobe.io",
+        "adobeaemcloud.com",
+        "adobeconnect.com",
+        "adobecqms.net",
+        "bizible.com",
+        "marketo.com",
+        "mixamo.com",
+        "omniture.com",
+        "phonegap.com",
+        "proofhq.com",
+        "scene7.com",
+        "workfront.com",
+        "omtrdc.net",
+        "tubemogul.com",
+        "typekit.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Airbnb",
+      "program_url": "https://hackerone.com/airbnb",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "airbnb.com",
+        "urbandoor.com",
+        "airbnb-aws.com",
+        "airbnbcitizen.com",
+        "atairbnb.com",
+        "byairbnb.com",
+        "hoteltonight-test.com",
+        "luxuryretreats.com",
+        "muscache.com",
+        "withairbnb.com",
+        "hoteltonight.com",
+        "luckey.app",
+        "luckey.fr",
+        "luckey.in",
+        "luckey.es",
+        "luckey.ca",
+        "luckey.com",
+        "luckey.partners",
+        "luckeyhomes.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Airtable",
+      "program_url": "https://hackerone.com/airtable",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "airtable.com",
+        "staging-airtableblocks.com",
+        "dl.getforma.com"
+      ],
+      "out_of_scope":[
+        "blog.airtable.com",
+        "support.airtable.com",
+        "guide.airtable.com",
+        "community.airtable.com"
+      ]
+    },
+    {
+      "name": "Swisscom",
+      "program_url": "https://www.swisscom.ch/en/about/security/bug-bounty.html",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "ajila.com",
+        "digital.deals",
+        "autosense.ch",
+        "blue-action.ch",
+        "blue-app.ch",
+        "blue-app.com",
+        "blue-cinema.ch",
+        "blue-cinemas.ch",
+        "blue-cinemas.com",
+        "blue-doku.ch",
+        "blue-doku.com",
+        "blue-entertainment.ch",
+        "blue-entertainment.com",
+        "blue-extra.ch",
+        "blue-extra.com",
+        "blue-family.ch",
+        "blue-family.com",
+        "blue-games.ch",
+        "blue-gaming.ch",
+        "blue-gaming.com",
+        "blue-goal.ch",
+        "blue-goal.com",
+        "blue-info.ch",
+        "blue-kino.ch",
+        "blue-kino.com",
+        "blue-league.ch",
+        "blue-league.com",
+        "blue-live.ch",
+        "blue-member.ch",
+        "blue-member.com",
+        "blue-news.ch",
+        "blue-ondemand.ch",
+        "blue-ondemand.com",
+        "blue-packages.com",
+        "blue-play.ch",
+        "blue-player.ch",
+        "blue-plus.ch",
+        "blue-ppv.ch",
+        "blue-ppv.com",
+        "blue-premium.ch",
+        "blue-serie.ch",
+        "blue-series.ch",
+        "blue-smarttv.ch",
+        "blue-smarttv.com",
+        "blue-sport.ch",
+        "blue-sports.ch",
+        "blue-streaming.ch",
+        "blue-streaming.com",
+        "blue-tv.ch",
+        "blue-vision.ch",
+        "blue-vod.ch",
+        "blue-xtra.ch",
+        "blue-xtra.com",
+        "blue-zoom.ch",
+        "blue.ch",
+        "blueaction.ch",
+        "bluecinema.ch",
+        "bluecinemas.ch",
+        "bluedoku.ch",
+        "blueentertainment.ch",
+        "bluefamily.ch",
+        "bluegames.ch",
+        "bluegaming.ch",
+        "bluegoal.ch",
+        "blueinfo.ch",
+        "bluekino.ch",
+        "blueleague.ch",
+        "bluemember.ch",
+        "bluenews.ch",
+        "blueondemand.ch",
+        "bluepackages.ch",
+        "blueplay.ch",
+        "blueplayer.ch",
+        "blueplus.ch",
+        "blueppv.ch",
+        "blueppv.com",
+        "bluepremium.ch",
+        "blueprodukte.com",
+        "blueretro.ch",
+        "blueserie.ch",
+        "blueserie.com",
+        "blueseries.ch",
+        "bluesmarttv.ch",
+        "bluesmarttv.com",
+        "bluesport.ch",
+        "bluesports.ch",
+        "bluestreaming.ch",
+        "bluetv.ch",
+        "bluevod.ch",
+        "cinebowling.ch",
+        "cinebowling.com",
+        "cinebowling.events",
+        "cinetrade.ch",
+        "first-lounge-cinema.ch",
+        "first-lounge.ch",
+        "firstlounge.ch",
+        "firstloungecinema.ch",
+        "jassfederal.ch",
+        "kino.movie",
+        "kinotheater.ch",
+        "kinotheaterag.ch",
+        "kit.ag",
+        "kitag.ch",
+        "kitag.com",
+        "kitagcinema.ch",
+        "kitagcinema.com",
+        "kitagcinemas.ch",
+        "kitagcinemas.com",
+        "sporttv.ch",
+        "sporttv.hockey",
+        "teleclub-sport.ch",
+        "teleclub-zoom.ch",
+        "teleclub.ch",
+        "teleclubnow.ch",
+        "teleclubplay.ch",
+        "teleclubsport.ch",
+        "teleclubsports.ch",
+        "teleclubzoom.ch",
+        "daura.ch",
+        "globalipaction.ch",
+        "glipac.ch",
+        "i-web.ch",
+        "jls.ch",
+        "jls.digital",
+        "ngti.nl",
+        "api.mailarchiver.mtfcloud.ch",
+        "bgv.filecloud.mtfcloud.ch",
+        "filecloud.mtfcloud.ch",
+        "status.mtfcloud.ch",
+        "zabbix.mtf.li",
+        "bluewin.ch",
+        "conextrade.com",
+        "curabill.ch",
+        "cura-med.ch",
+        "digitalassessment.ch",
+        "ealarm-safemode.ch",
+        "ealarmstarter.ch",
+        "ellb.ch",
+        "evita.ch",
+        "h-net.ch",
+        "hcard.ch",
+        "helloclass.ch",
+        "idisign.ch",
+        "intswisscom.com",
+        "ip-plus.net",
+        "jlr-connect.ch",
+        "labnet.ch",
+        "lanexpert.ch",
+        "mccip.ch",
+        "mdm-mobile.ch",
+        "medicalconnector.ch",
+        "medicalexchange.ch",
+        "medicalshare.ch",
+        "mucc-services.ch",
+        "mycloud.ch",
+        "mycloudswisscom.ch",
+        "paybillag.com",
+        "pwlan.ch",
+        "scbs.ch",
+        "scsstatic.ch",
+        "sctv.ch",
+        "securepop.ch",
+        "sinso.ch",
+        "smeoffer.ch",
+        "swisscloud.io",
+        "swisscom-alarm.ch",
+        "swisscom-flaechen.ch",
+        "swisscom-health.ch",
+        "swisscom-immobilien.ch",
+        "swisscom-learningcenter.ch",
+        "swisscom-sharespace.com",
+        "swisscom-shop.ch",
+        "swisscom-tv.com",
+        "swisscomcloud.com",
+        "swisscom-mcc.ch",
+        "swisscom.ai",
+        "swisscom.ch",
+        "swisscom.com",
+        "swisscomras.ch",
+        "swissdigicert.ch",
+        "swisstrustdir.ch",
+        "swisstrustroom.ch",
+        "swisstrustroom.com",
+        "triamed.ch",
+        "volvo-online.ch",
+        "webtiser.ch",
+        "webtiser.com",
+        "wingo.ch",
+        "sbcdc.ch",
+        "sbcnms.ch",
+        "sbc-nms.ch",
+        "sbc-ticketing.ch",
+        "sbcstreams.ch",
+        "sbctv.ch",
+        "swisscombroadcast.com",
+        "swisscombroadcast.ch",
+        "viaas.ch",
+        "videoinsider.ch",
+        "openwt.com",
+        "openwt.io",
+        "openwt.net",
+        "swisscomdigital.tech",
+        "swisscomdigital.technology",
+        "swisscomdigitaltechnologies.com",
+        "swisscomdigitaltechnology.ch",
+        "swisscomdt.com",
+        "akupunkturvergleich.ch",
+        "apotheken-vergleich.ch",
+        "augenarztvergleich.ch",
+        "bestattungsvergleich.ch",
+        "bijouterie-vergleich.ch",
+        "bodenlegervergleich.ch",
+        "bäckereivergleich.ch",
+        "cateringvergleich.ch",
+        "coaching-vergleich.ch",
+        "coiffeurvergleich.ch",
+        "consultingvergleich.ch",
+        "digitalone.ch",
+        "directories.ch",
+        "directoriesdata.ch",
+        "druckereien-vergleich.ch",
+        "e-directories.ch",
+        "elektrikervergleich.ch",
+        "ernaehrungsberatungsvergleich.ch",
+        "etv.ch",
+        "fahrlehrervergleich.ch",
+        "fenster-türe-vergleich.ch",
+        "fitnessstudio-vergleich.ch",
+        "floristvergleich.ch",
+        "fondue-vergleich.ch",
+        "fotografvergleich.ch",
+        "fotografvergleich.ch",
+        "garage-vergleich.ch",
+        "gartenbauvergleich.ch",
+        "gu-vergleich.ch",
+        "hautarztvergleich.ch",
+        "immoverwaltungsvergleich.ch",
+        "informatikervergleich.ch",
+        "innenarchitektvergleich.ch",
+        "kinderarztvergleich.ch",
+        "kinderkrippen-vergleich.ch",
+        "kosmetikvergleich.ch",
+        "local.ch",
+        "localcities.ch",
+        "localclubs.ch",
+        "localreservation.ch",
+        "localsearch.ch",
+        "localsearch.tech",
+        "maler-gipser-vergleich.ch",
+        "massagevergleich.ch",
+        "metzgereivergleich.ch",
+        "multisource.ch",
+        "multisourcepro.ch",
+        "mycommerce.shop",
+        "nachhilfevergleich.ch",
+        "nagelstudiovergleich.ch",
+        "oeffentliches-verzeichnis.ch",
+        "optiker-vergleich.ch",
+        "osteopathievergleich.ch",
+        "pannenhilfevergleich.ch",
+        "pflegeheimvergleich.ch",
+        "physiotherapievergleich.ch",
+        "reinigungsfirmavergleich.ch",
+        "reisebuerovergleich.ch",
+        "renovero.ch",
+        "sanitaervergleich.ch",
+        "scdag.net",
+        "schreinervergleich.ch",
+        "search.ch",
+        "sospos.ch",
+        "swisslist.ch",
+        "tanzschulvergleich.ch",
+        "tennisclubvergleich.ch",
+        "tierarztvergleich.ch",
+        "umzugsfirma-vergleich.ch",
+        "veloshop-vergleich.ch",
+        "wellness-spa-vergleich.ch",
+        "websheep.com",
+        "yoga-pilates-vergleich.ch",
+        "swisscomstream.ch",
+        "zoon.ch",
+        "u-s-p.ch",
+        "united-security-providers.ch",
+        "worklink.ch",
+        "cablex.ch",
+        "mycablex.ch",
+        "itnetx.ch"
+      ],
+      "out_of_scope":[
+        "*.admeira.ch",
+        "*.adunit.ch",
+        "*.adunit.tech",
+        "*.custodigit.com",
+        "*.datasport.ch",
+        "*.7layers.it",
+        "*.fastweb.it",
+        "*.local.fr",
+        "*.mila.cloud",
+        "*.mila.com",
+        "*.coopmobile.ch",
+        "*.cust.swisscom.ch",
+        "*.cust.wingo.ch",
+        "*.energie-klimapioniere.ch",
+        "*.homepagetool.ch",
+        "*.hostcenter.com",
+        "*.internet-box.ch",
+        "*.klimapioniere.ch",
+        "*.mtf-ti.ch",
+        "*.mtfcloud.ch",
+        "*.pcwtag.itservices.ch",
+        "*.pub.wingo.ch",
+        "*.rnas-dyn.bluewin.ch",
+        "*.scene7.com",
+        "*.sfsnet.ch",
+        "*.swisscom-printshop.ch",
+        "*.swisscom-umfrage.ch",
+        "shop.m-budget.migros.ch",
+        "swisscom.ecommerce-benchmark.com",
+        "swisscom.shirthouse.ch",
+        "swisscomsolutions.vpch.ch",
+        "*.sitefree.ch",
+        "*.mystrom.ch",
+        "autodiscover.mtf-ti.ch",
+        "grafana.rk8s.94946.mtfcloud.ch",
+        "keycloak.rk8s.94946.mtfcloud.ch",
+        "mail.mtf-ti.ch",
+        "outlook.mtf-ti.ch",
+        "prometheus.rk8s.94946.mtfcloud.ch",
+        "webapp.rk8s.94957.mtfcloud.ch",
+        "*.tiko-energy.ch",
+        "*.tiko-energy.com",
+        "*.tiko.at",
+        "*.tiko.ch",
+        "*.tiko.de",
+        "*.tiko.energy",
+        "*.tiko.fr",
+        "*.tiko.info",
+        "*.tiko.net",
+        "*.tiko.services",
+        "*.tiko.swiss",
+        "*.tiko.uk",
+        "*.tikoenergy.com"
+      ]
+    },
+    {
+      "name": "Aiven",
+      "program_url": "https://hackerone.com/aiven_ltd",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "aiven.io",
+        "aivencloud.com"
+      ],
+      "out_of_scope":[
+        "uptime.aiven.io"
+      ]
+    },
+    {
+      "name": "Innogames",
+      "program_url": "https://app.intigriti.com/researcher/programs/innogames/innogames/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "igpayment.com",
+        "innogames.de",
+        "innogames.com",
+        "tribalwars.cash",
+        "elvenar.com",
+        "forgeofempires.com",
+        "grepolis.com"
+      ],
+      "out_of_scope":[
+        "pn.innogames.com",
+        "newsroom.innogames.com",
+        "mail.innogames.com",
+        "forum.innogames.com",
+        "slack.innogames.de",
+        "surveys.innogames.de",
+        "exchange.innogames.de",
+        "mail.innogames.de",
+        "om-cdn.innogames.de",
+        "gamejam.innogames.de",
+        "sip.innogames.de",
+        "lyncdiscover.innogames.de",
+        "mailout.innogames.de",
+        "autodiscover.innogames.de",
+        "email.innogames.de",
+        "call.innogames.com",
+        "sip.innogames.com",
+        "conferencing.innogames.com",
+        "mra.innogames.com",
+        "meet.innogames.com",
+        "jamf.innogames.com",
+        "igjam.eu"
+      ]
+    },
+    {
+      "name": "Algolia",
+      "program_url": "https://hackerone.com/algolia",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "algolianet.com",
+        "algolia.com",
+        "algolia.net"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Alibaba",
+      "program_url": "https://hackerone.com/alibaba",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "alibaba.com",
+        "aliexpress.com",
+        "taobao.com",
+        "tmall.com",
+        "aliyun.com",
+        "alibabacloud.com",
+        "alibaba-inc.com",
+        "aliyun-inc.com",
+        "alibabagroup.com",
+        "alimama.com",
+        "daraz.com",
+        "aliexpress.ru",
+        "1688.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Allbridge",
+      "program_url": "https://hackenproof.com/allbridge/allbridge",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "allbridge.io"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Allegro",
+      "program_url": "https://hackerone.com/allegro",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "allegro.pl.allegrosandbox.pl"
+      ],
+      "out_of_scope":[
+        "allegro.pl",
+        "allegrogroup.com"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "program_url": "https://hackerone.com/amazonvrp",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "amazon.com",
+        "amazonpay.in",
+        "amazonpay.amazon.in"
+      ],
+      "out_of_scope":[
+        "amazongames.com",
+        "tsologic.com"
+      ]
+    },
+    {
+      "name": "AMERICAN-SYSTEMS",
+      "program_url": "https://hackerone.com/american_systems_bbp",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "alexamerican.com",
+        "alexamericansystems.com",
+        "americansystems.com",
+        "ascvpc.com",
+        "ascsites.com",
+        "ascgov.com",
+        "ddlomni.com",
+        "nhaero.com",
+        "americansystems.info",
+        "amsyscorp.com",
+        "2asc.com",
+        "americanalliant.com",
+        "asc.name",
+        "digitalaccess.com",
+        "americansystemsuniversity.com",
+        "americansystems.org",
+        "thoughtmill.com",
+        "american-systems.org",
+        "american-systems.com",
+        "asextranet.com",
+        "emsolutionsinc.com",
+        "emsolve.com",
+        "essworld.net",
+        "nswccd-fbw-scs.com",
+        "asvpc.com",
+        "alex-as.com"
+      ],
+      "out_of_scope":[
+        "nswccd-sl.com",
+        "ntpdb.ddlomni.com",
+        "tuba2.ddlomni.com",
+        "navseaservices.com",
+        "egd-web.ddlomni.com",
+        "dsshelp.org",
+        "navseaservices.com",
+        "dmsjv.com"
+      ]
+    },
+    {
+      "name": "Amon",
+      "program_url": "https://amon.tech/bug-bounty-program",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "amon.tech"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Apsis",
+      "program_url": "https://www.apsis.com/bug-bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "apsis.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Arlo-Cash-Rewards",
+      "program_url": "https://bugcrowd.com/arlo",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "arlo.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Asana",
+      "program_url": "https://bugcrowd.com/asana",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "asana.com",
+        "asana.plus",
+        "asana.biz"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "AT&T",
+      "program_url": "https://hackerone.com/att",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "att.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Aruba-Networks",
+      "program_url": "https://bugcrowd.com/aruba-public",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "arubanetworks.com"
+      ],
+      "out_of_scope":[
+        "outdoorplanner.arubanetworks.com",
+        "website.atl.arubanetworks.com",
+        "website.getaws.arubanetworks.com",
+        "websiteasp-notifications.arubanetworks.com",
+        "websitequickconnect.arubanetworks.com",
+        "websitecommunity.arubanetworks.com",
+        "website.iot.developer.arubanetworks.com",
+        "websiteinnovate.arubanetworks.com",
+        "website.isb.arubanetworks.com",
+        "websiteenews.arubanetworks.com",
+        "websitesirt.arubanetworks.com"
+      ]
+    },
+    {
+      "name": "Atlassian",
+      "program_url": "https://bugcrowd.com/atlassian",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "atlassian.net",
+        "atlassian.com",
+        "atlastunnel.com"
+      ],
+      "out_of_scope":[
+        "shop.atlassian.com",
+        "bytebucket.org",
+        "bitbucket.io"
+      ]
+    },
+    {
+      "name": "Automata-Network",
+      "program_url": "https://www.ata.network/bugbounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "ata.network",
+        "1rpc.io",
+        "2fa.guru",
+        "nftfair.app",
+        "anydao.app",
+        "xata.fi"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Automattic",
+      "program_url": "https://hackerone.com/automattic",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "akismet.com",
+        "mailpoet.com",
+        "pressable.com",
+        "simplenote.com",
+        "simperium.com",
+        "intensedebate.com",
+        "happy.tools"
+      ],
+      "out_of_scope":[
+        "scrollkit.com",
+        "learnboost.com",
+        "txmblr.com",
+        "afterthedeadline.com",
+        "polishmywriting.com",
+        "survey.fm",
+        "poll.fm",
+        "atavist.com",
+        "try.pressable.com"
+      ]
+    },
+    {
+      "name": "Avalanche",
+      "program_url": "https://hackenproof.com/avalanche",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "avalabs.org",
+        "avax.network",
+        "avax-test.network",
+        "avax-dev.network"
+      ],
+      "out_of_scope":[
+        "chat.avax.network",
+        "docs.avax.network",
+        "chat.avalabs.org",
+        "buy.avax.network",
+        "snowtrace.io",
+        "community.avax.network",
+        "test.avax.network",
+        "forum.avax.netowrk",
+        "avalanche-hub.com"
+      ]
+    },
+    {
+      "name": "BigONE-Global-Exchange",
+      "program_url": "https://hackenproof.com/bigone-global-exchange/bigone-global-exchange",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "big.one",
+        "bigone.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Binance",
+      "program_url": "https://bugcrowd.com/binance",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "binance.com",
+        "bnbchain.org",
+        "binance.co.ug"
+      ],
+      "out_of_scope":[
+        "community.binance.org",
+        "trustwallet.com",
+        "trustwalletapp.com",
+        "binance.org",
+        "buildnbuild.dev",
+        "binance.sg"
+      ]
+    },
+    {
+      "name": "Binary",
+      "program_url": "https://hackerone.com/binary",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "binary.com",
+        "binaryws.com",
+        "deriv.com",
+        "deriv.cloud",
+        "binary.bot"
+      ],
+      "out_of_scope":[
+        "admin.binary.com",
+        "login.binary.com",
+        "xml.binary.com",
+        "media.binary.com",
+        "js.binary.com",
+        "record.binary.com"
+      ]
+    },
+    {
+      "name": "BingX-Exchange",
+      "program_url": "https://hackenproof.com/bingx/bingx-exchange",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "bingx.com",
+        "bingx.pro"
+      ],
+      "out_of_scope":[
+        "support.bingx.pro",
+        "support.bingx.com",
+        "blog.bingx.com",
+        "uat.bingx.com"
+      ]
+    },
+    {
+      "name": "Bit.com",
+      "program_url": "https://hackenproof.com/bit-dot-com/bit-dot-com",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "bit.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "BitDefender",
+      "program_url": "https://bugcrowd.com/bitdefender",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "bitdefender.com",
+        "bitdefender.net"
+      ],
+      "out_of_scope":[
+        "partner-marketing.bitdefender.com"
+      ]
+    },
+    {
+      "name": "Bitfinex",
+      "program_url": "https://www.bitfinex.com/bug-bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "bitfinex.com"
+      ],
+      "out_of_scope":[
+        "outofscope.com"
+      ]
+    },
+    {
+      "name": "BitForex",
+      "program_url": "https://hackenproof.com/bitforex/bitforex",
+      "platform": "",
+      "bounty": true,
+      "in_scope": [
+        "bitforex.com"
+      ],
+      "out_of_scope":[
+        "bitfinex.recruitee.com",
+        "bitfinex.statuspage.io",
+        "bitfinexsecurities.recruitee.com",
+        "cs.bitfinex.com",
+        "docs.bitfinex.com",
+        "support.bitfinex.com"
+      ]
+    },
+    {
+      "name": "BitGo",
+      "program_url": "https://www.bitgo.com/bug-bounty",
+      "platform": "",
+      "bounty": true,
+      "in_scope": [
+        "bitgo.com",
+        "bitgo-test.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Bitkub",
+      "program_url": "https://hackenproof.com/bitkub/bitkub",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "bitkub.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "BitMart-Exchange",
+      "program_url": "https://hackenproof.com/bitmart-exchange/bitmart-exchange",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "bitmart.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "BitMEX",
+      "program_url": "https://hackerone.com/bitmex",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "bitmex.com"
+      ],
+      "out_of_scope":[
+        "blog.bitmex.com",
+        "research.bitmex.com",
+        "support.bitmex.com",
+        "status.bitmex.com",
+        "public.bitmex.com",
+        "public-testnet.bitmex.com",
+        "bitmex.freshdesk.com",
+        "bitmex-org.freshworks.com",
+        "academy.bitmex.com"
+      ]
+    },
+    {
+      "name": "Bitrue",
+      "program_url": "https://hackenproof.com/bitrue/bitrue",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "bitrue.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "BKEX",
+      "program_url": "https://hackenproof.com/bkex/bkex",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "bkex.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Blockchain",
+      "program_url": "https://hackerone.com/blockchain",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "blockchain.com",
+        "blockchain.info"
+      ],
+      "out_of_scope":[
+        "email-clicks.blockchain.com",
+        "support.blockchain.com",
+        "blog.blockchain.com",
+        "track.blockchain.com",
+        "partners.blockchain.com",
+        "why.blockchain.com"
+      ]
+    },
+    {
+      "name": "Blue-Jeans-Network",
+      "program_url": "https://bugcrowd.com/bluejeans",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "bluejeans.com"
+      ],
+      "out_of_scope":[
+        "a.bluejeans.com",
+        "community.bluejeans.com",
+        "hub.bluejeans.com",
+        "www-a.bluejeans.com",
+        "www-dev.bluejeans.com"
+      ]
+    },
+    {
+      "name": "Bluesnap",
+      "program_url": "https://home.bluesnap.com/security-bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "bluesnap.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "BMW-Group",
+      "program_url": "https://hackerone.com/bmwgroup",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "bmw-motorrad.de",
+        "bmw.de",
+        "mini.de"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Brave-Software",
+      "program_url": "https://hackerone.com/brave",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "brave.com",
+        "basicattentiontoken.org"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "BtcTurk",
+      "program_url": "https://www.btcturk.com/odul-avciligi",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "btcturk.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "BTSE",
+      "program_url": "https://hackenproof.com/btse/btse-bug-bounty-program",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "btse.com"
+      ],
+      "out_of_scope":[
+        "support.btse.com",
+        "blog.btse.com"
+      ]
+    },
+    {
+      "name": "Bugcrowd",
+      "program_url": "https://bugcrowd.com/bugcrowd",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "bugcrowd.com"
+      ],
+      "out_of_scope":[
+        "blog.bugcrowd.com",
+        "websiteforum.bugcrowd.com",
+        "websiteemail.bugcrowd.com",
+        "websiteemail.forum.bugcrowd.com",
+        "websitego.bugcrowd.com",
+        "websitepages.bugcrowd.com",
+        "websiteevents.bugcrowd.com",
+        "websiteresearcherdocs.bugcrowd.com",
+        "websiteassetinventory.bugcrowd.com",
+        "websitecommunity.bugcrowd.com"
+      ]
+    },
+    {
+      "name": "Bullish",
+      "program_url": "https://bugcrowd.com/bullish",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "bullish.com"
+      ],
+      "out_of_scope":[
+        "bugbounty.bullish-test.com"
+      ]
+    },
+    {
+      "name": "Caffeine",
+      "program_url": "https://bugcrowd.com/caffeine",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "caffeine.tv"
+      ],
+      "out_of_scope":[
+        "events.caffeine.tv",
+        "caffeine.custhelp.com"
+      ]
+    },
+    {
+      "name": "Canva",
+      "program_url": "https://bugcrowd.com/canva",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "canva.com",
+        "canva.cn",
+        "canva-apps.com",
+        "canva-apps.cn"
+      ],
+      "out_of_scope":[
+        "livecast.canva.cn"
+      ]
+    },
+    {
+      "name": "Casper",
+      "program_url": "https://hackerone.com/casper",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "casper.com",
+        "casper.tools"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Centrify",
+      "program_url": "https://bugcrowd.com/centrify",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "centrify.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Chainlink",
+      "program_url": "https://hackerone.com/chainlink",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "chain.link",
+        "smartcontract.com"
+      ],
+      "out_of_scope":[
+        "create.smartcontract.com",
+        "docs.chain.link",
+        "chainlinklabs.com",
+        "blog.chain.link"
+      ]
+    },
+    {
+      "name": "Chargezoom",
+      "program_url": "https://chargezoom.com/bugbounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "payportal.net"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Chaturbate",
+      "program_url": "https://hackerone.com/chaturbate",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "chaturbate.com",
+        "highwebmedia.com",
+        "securegatewayaccess.com",
+        "mmcdn.com"
+      ],
+      "out_of_scope":[
+        "archiveblog.chaturbate.com",
+        "caturbate.com",
+        "support.chaturbate.com",
+        "testbed.chaturbate.com",
+        "status.chaturbate.com",
+        "cbswag.com"
+      ]
+    },
+    {
+      "name": "Cisco-Meraki",
+      "program_url": "https://bugcrowd.com/ciscomeraki",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "meraki.com",
+        "ikarem.io",
+        "network-auth.com",
+        "meraki.cisco.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "cLabs",
+      "program_url": "https://app.intigriti.com/programs/clabs/clabs/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "celo.org",
+        "mento.finance"
+      ],
+      "out_of_scope":[
+        "learn.celo.org",
+        "grameen.celo.org",
+        "hackathon.celo.org"
+      ]
+    },
+    {
+      "name": "Clario",
+      "program_url": "https://hackerone.com/clario",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "clario.co",
+        "mackeeper.com"
+      ],
+      "out_of_scope":[
+        "account.clario.co",
+        "api-ne.clario.co"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "program_url": "https://hackerone.com/cloudflare",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "cloudflare.com",
+        "cloudflarepartners.com",
+        "cloudflareworkers.com",
+        "cloudflareaccess.com"
+      ],
+      "out_of_scope":[
+        "support.cloudflare.com",
+        "support.cloudflarewarp.com",
+        "community.cloudflare.com"
+      ]
+    },
+    {
+      "name": "Cloudinary",
+      "program_url": "https://bugcrowd.com/cloudinary",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "cloudinary.com"
+      ],
+      "out_of_scope":[
+        "wiki.cloudinary.com",
+        "support.cloudinary.com"
+      ]
+    },
+    {
+      "name": "Cloudways",
+      "program_url": "https://bugcrowd.com/cloudways",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "cloudways.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Coda",
+      "program_url": "https://hackerone.com/coda_bbp",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "coda.io",
+        "codahosted.io",
+        "codacontent.io"
+      ],
+      "out_of_scope":[
+        "status.coda.io"
+      ]
+    },
+    {
+      "name": "Coinbase",
+      "program_url": "https://hackerone.com/coinbase",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "coinbase.com",
+        "cbhq.net",
+        "paradex.io"
+      ],
+      "out_of_scope":[
+        "blockspring.com"
+      ]
+    },
+    {
+      "name": "Coindcx",
+      "program_url": "https://bugcrowd.com/coindcx-og",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "coindcx.com",
+        "dcxstage.com",
+        "dcxlearn.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "CoinGecko",
+      "program_url": "https://hackenproof.com/coingecko/coingecko",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "coingecko.com",
+        "geckoterminal.com"
+      ],
+      "out_of_scope":[
+        "assets.coingecko.com",
+        "newsletter.coingecko.com",
+        "selfserve.coingecko.com"
+      ]
+    },
+    {
+      "name": "CoinMetro",
+      "program_url": "https://hackenproof.com/coinmetro/coinmetro-exchange",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "coinmetro.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Coinsbit",
+      "program_url": "https://hackenproof.com/coinsbit/coinsbit",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "coinsbit.io"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Coinstore",
+      "program_url": "https://hackenproof.com/coinstore/coinstore",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "coinstore.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Consensys",
+      "program_url": "https://hackerone.com/consensys",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "codefi.network",
+        "nfura.io",
+        "consensys.net",
+        "metamask.io",
+        "trufflesuite.com"
+      ],
+      "out_of_scope":[
+        "learn.consensys.net",
+        "blog.infura.io",
+        "community.infura.io",
+        "status.infura.io"
+      ]
+    },
+    {
+      "name": "Core",
+      "program_url": "https://hackenproof.com/avalanche/core",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "core.app"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Cornershop",
+      "program_url": "https://hackerone.com/cornershop",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "cornershop.io",
+        "cornershopapp.com",
+        "superpal.com",
+        "superpal.io"
+      ],
+      "out_of_scope":[
+        "bananarama.cornershopapp.com",
+        "blog.cornershopapp.com",
+        "onelink.cornershopapp.com",
+        "-faq.cornershopapp.com",
+        "growth.cornershopapp.com",
+        "tech.cornershop.io"
+      ]
+    },
+    {
+      "name": "Credit-Karma",
+      "program_url": "https://hackerone.com/creditkarma",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "creditkarma.com",
+        "creditkarma.ca"
+      ],
+      "out_of_scope":[
+        "tax.creditkarma.com",
+        "appsflyer.com",
+        "crashlytics.com",
+        "taplytics.com",
+        "socialverification.creditkarma.com",
+        "socialverification.stage.creditkarma.com",
+        "taxsupport.creditkarma.com"
+      ]
+    },
+    {
+      "name": "Crowdstrike",
+      "program_url": "https://hackerone.com/crowdstrike",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "crowdstrike.com",
+        "crowdstrike.org",
+        "falcon-sandbox.com",
+        "hybrid-analysis.com",
+        "humio.com",
+        "securecircle.com",
+        "preempt.com",
+        "preemptsecurity.com",
+        "reposify.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Crypto.com",
+      "program_url": "https://hackerone.com/crypto",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "crypto.com",
+        "app.mona.co",
+        "crypto.org",
+        "monaco.mobile"
+      ],
+      "out_of_scope":[
+        "crypto.com"
+      ]
+    },
+    {
+      "name": "Cryptology",
+      "program_url": "https://hackenproof.com/cryptology/cryptology",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "cryptology.com"
+      ],
+      "out_of_scope":[
+        "collector.prod.cryptology.com",
+        "blog.cryptology.com",
+        "dev.cryptology.com",
+        "staging.cryptology.com",
+        "sandbox.cryptology.com"
+      ]
+    },
+    {
+      "name": "Danskebank",
+      "program_url": "https://danskebank.com/responsible-disclosure",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "danskebank.com",
+        "danskebank.dk",
+        "june.dk",
+        "sunday.dk"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Dashlane",
+      "program_url": "https://hackerone.com/dashlane",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "dashlane.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Databricks",
+      "program_url": "https://hackerone.com/databricks",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "databricks.com",
+        "spark-summit.org",
+        "delta.io",
+        "spark-portal.org",
+        "spark-summit.com"
+      ],
+      "out_of_scope":[
+        "forums.databricks.com",
+        "feedback.databricks.com",
+        "go.databricks.com",
+        "cloud.databricks.com",
+        "azuredatabricks.net"
+      ]
+    },
+    {
+      "name": "DataStax",
+      "program_url": "https://hackerone.com/datastax",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "datastax.com"
+      ],
+      "out_of_scope":[
+        "academy.datastax.com",
+        "cla.datastax.com",
+        "community.datastax.com"
+      ]
+    },
+    {
+      "name": "Deliveroo",
+      "program_url": "https://hackerone.com/deliveroo",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "deliveroo-data.net",
+        "deliveroo-data.io",
+        "deliveroo-data-test.io",
+        "deliveroo-streams.net"
+      ],
+      "out_of_scope":[
+        " fs1.deliveroo.co.uk",
+        "email-assets.deliveroo.co.uk",
+        "go.deliveroo.com",
+        "riderapply.deliveroo.com"
+      ]
+    },
+    {
+      "name": "Dell-Technologies",
+      "program_url": "https://bugcrowd.com/dell-com",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "dell.com",
+        "delltechnologies.com"
+      ],
+      "out_of_scope":[
+        "console.delltechnologies.com",
+        "prm.dell.com",
+        "websiteprmdev.dell.com",
+        "websiteprmstg.dell.com",
+        "websiteprm-ps3dmz.dell.com",
+        "websiteeducate.dell.com",
+        "websiteconsole.dell.com",
+        "websiteconsole-test.dell.com"
+      ]
+    },
+    {
+      "name": "Deribit",
+      "program_url": "https://hackerone.com/deribit",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "deribit.com"
+      ],
+      "out_of_scope":[
+        "deribit.zendesk.com",
+        "chattest.deribit.com",
+        "office.deribit.com",
+        "veriscope.deribit.com"
+      ]
+    },
+    {
+      "name": "Dex-Trade",
+      "program_url": "https://hackenproof.com/dex-trade/dex-trade",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "dex-trade.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "DIFX",
+      "program_url": "https://hackenproof.com/difx/difx",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "difx.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Directly",
+      "program_url": "https://bugcrowd.com/directly",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "directly.com",
+        "sandbox.directly.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "DJI",
+      "program_url": "https://security.dji.com/policy?lang=en_US",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "dji.com",
+        "skypixel.com",
+        "djicdn.com",
+        "djivideos.com",
+        "dji.net",
+        "robomaster.com",
+        "djiservice.org"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Doist",
+      "program_url": "https://todoist.com/help/articles/doist-bug-bounty-policy",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "todoist.com",
+        "twist.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Dokobit",
+      "program_url": "https://www.dokobit.com/compliance/vulnerability-disclosure-policy",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "dokobit.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Darwinex",
+      "program_url": "https://app.intigriti.com/programs/darwinex/darwinex/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "darwinex.com",
+        "machina.markets"
+      ],
+      "out_of_scope":[
+        "demouk.darwinex.com",
+        "liveuk.darwinex.com",
+        "demouk-mt5.darwinex.com",
+        "liveuk-mt5.darwinex.com"
+      ]
+    },
+    {
+      "name": "De-Morgen",
+      "program_url": "https://app.intigriti.com/programs/dpgm/demorgen/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "demorgen.be"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "EURid",
+      "program_url": "https://app.intigriti.com/programs/eurid/eurid/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "das.eu",
+        "dns.eu",
+        "eurid.eu",
+        "nic.eu",
+        "registry.eu",
+        "whois.eu",
+        "yadifa.eu"
+      ],
+      "out_of_scope":[
+        "w.dns.eu",
+        "x.dns.eu",
+        "y.dns.eu",
+        "nsx.eurid.eu",
+        "nsp.netnod.se"
+      ]
+    },
+    {
+      "name": "DropBox",
+      "program_url": "https://bugcrowd.com/dropbox",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "dropbox.com",
+        "hellosign.com",
+        "helloworks.com",
+        "hellofax.com",
+        "dropboxforum.com",
+        "docsend.com"
+      ],
+      "out_of_scope":[
+        "help.dropbox.com",
+        "help.docsend.com",
+        "faq.hellosign.com"
+      ]
+    },
+    {
+      "name": "Bybit",
+      "program_url": "https://bugcrowd.com/bybit",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "bybit.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Easyname",
+      "program_url": "https://www.easyname.de/de/support/easyname/253-bug-bounty-programm",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "easyname.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Easyprojects",
+      "program_url": "https://www.easyprojects.net/company/vulnerability-reward-program",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "easyprojects.net"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Elastic",
+      "program_url": "https://hackerone.com/elastic",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "elastic.co",
+        "found.io",
+        "swiftype.com",
+        "elstc.co",
+        "elasticnet.co",
+        "eops.nl",
+        "elastic-cloud.com"
+      ],
+      "out_of_scope":[
+        "go.es.co",
+        "info.elastic.co",
+        "learn.elastic.co",
+        "elasticon.elastic.co",
+        "training.elastic.co",
+        "link.email.elastic.co",
+        "track.email.elastic.co",
+        "sendgrid.elastic.co",
+        "wiki.elastic.co",
+        "https://github.com/elastic/*/wiki",
+        "ctf.elstc.co",
+        "https://github.com/swiftype/*/wiki",
+        "community.elastic.co",
+        "discuss.elastic.co",
+        "jobs.elastic.co",
+        "partners.elastic.co",
+        "elasticsearch.cn"
+      ]
+    },
+    {
+      "name": "Elementor",
+      "program_url": "https://bugcrowd.com/elementor",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "elementor.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "EPAM",
+      "program_url": "https://hackerone.com/epam-bbp",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "emakina.us",
+        "opensource.epam.com",
+        "emakina.group",
+        "projects.epam.com",
+        "epam.com",
+        "lab.epam.com",
+        "emakina.ch",
+        "emakina.com",
+        "emakina.fr"
+      ],
+      "out_of_scope":[
+        "telescopeai.com",
+        "ecsc00a03ba1.epam.com",
+        "ebn.epam.com",
+        "ethics.epam.com",
+        "emakina.nl",
+        "emakina.be",
+        "apex.lab.epam.com",
+        "emakina.tr",
+        "emakina.za",
+        "dojorena.io",
+        "uui.epam.com",
+        "solutionshub.epam.com",
+        "carbon.epam.com",
+        "wearecommunity.io",
+        "infongen.com",
+        "profile.epam.com",
+        "cami.lab.epam.com",
+        "emakina.ae",
+        "emakina.hr",
+        "emakina.in",
+        "emakina.lb",
+        "emakina.qa",
+        "emakina.se",
+        "continuumdev.com",
+        "emakina.at",
+        "emakina.rs",
+        "emakina.sa",
+        "emakina.uk",
+        "continuumdev.com"
+      ]
+    },
+    {
+      "name": "Epic-Games",
+      "program_url": "https://hackerone.com/epicgames",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "mediatonic.co.uk",
+        "easy.ac",
+        "popjam.com",
+        "rukkaz.com",
+        "jellychat.com",
+        "unrealtournament.com",
+        "audicagame.com",
+        "quixel.com",
+        "superawesome.com",
+        "rocketleague.com",
+        "unrealengine.com",
+        "amplitude-game.com",
+        "dancecentral.com",
+        "ps3-meta.rockband.com",
+        "rockbandvr.com",
+        "hmxservices.com",
+        "epicgames.dev",
+        "fallguys.com",
+        "superawesome.tv",
+        "psynet.gg",
+        "cubicmotion.com",
+        "oncatapult.com",
+        "singspacegame.com",
+        "isitbandcampfriday.com",
+        "sketchfab.com",
+        "bandcamp.com",
+        "artstation.com",
+        "psyonix.com",
+        "bcbits.com",
+        "dropmix.com",
+        "rockband4.com",
+        "harmonixmusic.com",
+        "hmxwebservices.com",
+        "fortnite.com",
+        "epicgames.com"
+      ],
+      "out_of_scope":[
+        "login.epicgames.com",
+        "watch.fortnite.com",
+        "forums.unrealengine.com",
+        "marketplacehelp.epicgames.com",
+        "twinmotionhelp.epicgames.com",
+        "skookum.chat",
+        "detroitlabs.epicgames.com",
+        "sompmgr-admin.hmxservices.com",
+        "sompmgr-proxy-ext.hmxservices.com",
+        "rb4ca-staging-admin.hmxwebservices.com",
+        "web-admin.harmonixmusic.com",
+        "msoid.harmoixmusic.com",
+        "jira.harmonixmusic.com",
+        "fuser-admin-dev-external.hmxservices.com",
+        "public-web-swarm-cluster.hmxservices.com",
+        "blog.bandcamp.com",
+        "epicsupport.force.com",
+        "sompmgr-dev-proxy-azure.hmxservices.com",
+        "azure-int-proxy.hmxservices.com",
+        "logstash-shipper-azure.hmxservices.com",
+        "sompmgr-proxy-ext-dev.hmxservices.com",
+        "audica-prod-admin.hmxwebservices.com",
+        "hype-dev-admin.hmxwebservices.com",
+        "OtherAsset",
+        "superbeatsports.com",
+        "admin.harmonixmusic.com",
+        "tableau.harmonixmusic.com",
+        "confluence.harmonixmusic.com",
+        "songsdb.harmonixmusic.com",
+        "sompmgr-frontend.hmxservices.com",
+        "fuser-admin-live-external.hmxservices.com",
+        "www-api.hmxservices.com",
+        "issues.unrealengine.com",
+        "svn.bandcamp.com",
+        "learn.unrealengine.com",
+        "get.bandcamp.help",
+        "corp.bandcamp.com",
+        "mediaspace.unrealengine.com",
+        "artportal.epicgames.com",
+        "stadiahelp.epicgames.com",
+        "rb4-admin.hmxservices.com",
+        "sompmgr-int-dev.hmxservices.com",
+        "sompmgr-dev-proxy-aws.hmxservices.com",
+        "dropmix-dev-admin.hmxwebservices.com",
+        "admin-dev.harmonixmusic.com",
+        "msoid.hmxservices.com",
+        "teamcity.hmxservices.com",
+        "eoshelp.epicgames.com",
+        "communityportal.epicgames.com",
+        "sompmgr-dev.hmxservices.com",
+        "dcvr-live-admin.hmxwebservices.com",
+        "rb4ca-prod-admin.hmxwebservices.com",
+        "locustus.harmonixmusic.com",
+        "autodiscover.harmonixmusic.com",
+        "sompmgr.hmxservices.com",
+        "sompmgr-proxy-int.hmxservices.com",
+        "webinars.unrealengine.com",
+        "damascushelp.epicgames.com",
+        "mithrilhelp.epicgames.com",
+        "sompmgr-proxy-int-dev.hmxservices.com",
+        "sompmgr-int.hmxservices.com",
+        "audica-live-admin.hmxwebservices.com",
+        "audica-prod-api.hmxwebservices.com",
+        "dcvr-prod-admin.hmxwebservices.com",
+        "rb4ca-prod-admin.hmxwebservices.com",
+        "locustus.harmonixmusic.com",
+        "autodiscover.harmonixmusic.com",
+        "sompmgr.hmxservices.com",
+        "sompmgr-proxy-int.hmxservices.com",
+        "eoshelp.epicgames.com"
+      ]
+    },
+    {
+      "name": "eToro",
+      "program_url": "https://hackerone.com/etoro_bbp",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "etoro.com",
+        "etoropartners.com",
+        "delta.app",
+        "bullsheet.me",
+        "etorox.com"
+      ],
+      "out_of_scope":[
+        "templates.etoro.com",
+        "api-portal.etoro.com"
+      ]
+    },
+    {
+      "name": "Etsy",
+      "program_url": "https://bugcrowd.com/etsy",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "etsy.com",
+        "etsypayments.com"
+      ],
+      "out_of_scope":[
+        "icht.etsysecure.com"
+      ]
+    },
+    {
+      "name": "Evernote",
+      "program_url": "https://hackerone.com/evernote",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "evernote.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "EXMO",
+      "program_url": "https://hackenproof.com/exmo/exmo",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "exmo.com",
+        "exmo.me"
+      ],
+      "out_of_scope":[
+        "info.exmo.com",
+        "info.exmo.me",
+        "exmo.money",
+        "support.exmoney.com",
+        "exmoney.zendesk.com"
+      ]
+    },
+    {
+      "name": "Exodus",
+      "program_url": "https://hackerone.com/exodus",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "exodus.io",
+        "a.exodus.io",
+        "exodus.com"
+      ],
+      "out_of_scope":[
+        "support.exodus.com",
+        "support-helpers.a.exodus.io",
+        "slack-invite.exodus.com",
+        "atp-exodus.com",
+        "exodus.atlassian.net",
+        "exodusstore.blob.core.windows.net"
+      ]
+    },
+    {
+      "name": "ExpressVPN",
+      "program_url": "https://bugcrowd.com/expressvpn",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "expressvpn.com",
+        "xvservice.net",
+        "xvtest.net",
+        "expressobutiolem.onion"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "FanDuel",
+      "program_url": "https://hackerone.com/fanduel",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "fdbox.net",
+        "fanduel.com",
+        "racing.fanduel.com",
+        "tvg.com",
+        "tvgnetwork.com",
+        "fanduel.design"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Fetlife",
+      "program_url": "https://hackerone.com/fetlife",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "fetlife.com"
+      ],
+      "out_of_scope":[
+        "status.fetlife.com",
+        "mail.fetlife.com",
+        "n2.fetlife.com",
+        "fetlifestatus.com",
+        "fetlifemail.com"
+      ]
+    },
+    {
+      "name": "fidentity",
+      "program_url": "https://gobugfree.com/programs/fidentity",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "fidentity.ch"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "FileZilla",
+      "program_url": "https://hackerone.com/filezilla",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "filezilla-project.org"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Flickr",
+      "program_url": "https://hackerone.com/flickr",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "flickr.com"
+      ],
+      "out_of_scope":[
+        "blog.flickr.com",
+        "amt.flickr.com",
+        "appletv.flickr.com",
+        "blogtest.flickr.com",
+        "bluebird.flickr.com",
+        "code.flickr.com",
+        "csp.flickr.com",
+        "guce.flickr.com",
+        "stage.guce.flickr.com",
+        "trunk.guce.flickr.com",
+        "health.flickr.com",
+        "help.flickr.com",
+        "parkorbird.flickr.com",
+        "links.flickr.com",
+        "flickr.net",
+        "flickrhelp.com"
+      ]
+    },
+    {
+      "name": "ForeScout-Technologies",
+      "program_url": "https://hackerone.com/forescout_technologies",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "forescout.com",
+        "forescoutcloud.net",
+        "cysiv.com"
+      ],
+      "out_of_scope":[
+        "datapod-1-100-ingest.development.forescoutcloud.net",
+        "datapod-1-100-query.development.forescoutcloud.net",
+        "mgmtpod-1-100-dashboard.development.forescoutcloud.net",
+        "mgmtpod-1-100.development.forescoutcloud.net",
+        "datapod-1-100-ingest.testing.forescoutcloud.net",
+        "datapod-1-100-query.testing.forescoutcloud.net",
+        "datapod-1-ingest.acceptance.forescoutcloud.net",
+        "datapod-1-query.acceptance.forescoutcloud.net",
+        "forescout.service-now.com"
+      ]
+    },
+    {
+      "name": "FoxyCart",
+      "program_url": "https://bugcrowd.com/foxycart",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "foxycart.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Gate.io",
+      "program_url": "https://hackenproof.com/gate-dot-io/gate-dot-io-exchange",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "gate.io"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "GitHub",
+      "program_url": "https://hackerone.com/github",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "githubapp.com",
+        "semmle.com",
+        "github.net",
+        "github.com",
+        "semmle.net",
+        "githubassets.com",
+        "githubusercontent.com",
+        "githubwebhooks.net",
+        "lgtm.com"
+      ],
+      "out_of_scope":[
+        "git.io",
+        "blog.github.com",
+        "community.github.com",
+        "spectrum.chat",
+        "github.blog",
+        "shop.github.com",
+        "enterprise.github.com",
+        "github.io"
+      ]
+    },
+    {
+      "name": "GitLab",
+      "program_url": "https://hackerone.com/gitlab",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "gitlab.com",
+        "gitlab.net",
+        "gitlab.org",
+        "gitlap.com"
+      ],
+      "out_of_scope":[
+        "dashboards.gitlab.com",
+        "alerts.gitlab.com",
+        "support.gitlab.com",
+        "shop.gitlab.com",
+        "forum.gitlab.com",
+        "status.gitlab.com",
+        "partners.gitlab.com",
+        "aptly.gitlab.com",
+        "translate.gitlab.com",
+        "federal-support.gitlab.com",
+        "us-federal-gitlab.com",
+        "ir.gitlab.com",
+        "levelup.gitlab.com",
+        "gitlab.biterg.io"
+      ]
+    },
+    {
+      "name": "Glassdoor",
+      "program_url": "https://hackerone.com/glassdoor",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "glassdoor.com"
+      ],
+      "out_of_scope":[
+        "fishbowlapp.com"
+      ]
+    },
+    {
+      "name": "GObugfree",
+      "program_url": "https://gobugfree.com/programs/bbh",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "gobugfree.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "GOJEK",
+      "program_url": "https://hackerone.com/gojek",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "gojekapi.com",
+        "gopayapi.com",
+        "findaya.com",
+        "findaya.co.id",
+        "mab.co.id",
+        "gojek.co.id"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Goldman-Sachs",
+      "program_url": "https://hackerone.com/goldmansachs",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "gs-mosaic.qa.gs.com",
+        "qaglobal-liquidity.gs.com",
+        "marquee.gs.com",
+        "gs.de",
+        "gsmarkets.de",
+        "gsmarkets.nl",
+        "gsmarkets.at",
+        "gsmarkets.be",
+        "gs.com",
+        "gsam.com",
+        "gsselect.com",
+        "gs-mosaic.gs.com",
+        "ayco.com",
+        "unitedcp.com",
+        "goldman.com",
+        "marcus.co.uk",
+        "developer.gs.com",
+        "marcus.com",
+        "rocaton.com",
+        "global-liquidity.gs.com",
+        "goldmansachsindices.com",
+        "gspublishing.com",
+        "goldmansachs.com",
+        "honestdollar.com",
+        "goldmanpfm.com",
+        "finlife.com",
+        "finlifepartners.com"
+        
+      ],
+      "out_of_scope":[
+        "rocaton.com",
+        "secure.rocaton.com",
+        "gspf.goldman.com",
+        "claritymoney.comm",
+        "genesiscapital.com",
+        "billpay.goldman.com",
+        "gset.gs.com",
+        "gsg-uk.goldman.com",
+        "qa-billpay.goldman.com",
+        "gsg.goldman.com",
+        "10ksbv.eo.gs.com",
+        "subscriptions.gs.com",
+        "blackinbusiness.gs.com"
+      ]
+    },
+    {
+      "name": "GoodRx",
+      "program_url": "https://hackerone.com/goodrx",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "goodrx.com"
+      ],
+      "out_of_scope":[
+        "support.goodrx.com",
+        "sso.identity.goodrx.com",
+        "api.heydoctor.com",
+        "investors.goodrx.com"
+      ]
+    },
+    {
+      "name": "Google",
+      "program_url": "https://bughunters.google.com/about/rules/6625378258649088/google-and-alphabet-vulnerability-reward-program-vrp-rules",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "google.com",
+        "youtube.com",
+        "blogger.com",
+        "verily.com",
+        "onduo.com",
+        "projectbaseline.com",
+        "signalpath.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Grab",
+      "program_url": "https://hackerone.com/grab",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "myteksi.com",
+        "myteksi.net",
+        "grab.com",
+        "grabpay.com",
+        "grabtaxi.com",
+        "grab.co",
+        "grab.careers",
+        "kartaview.org"
+      ],
+      "out_of_scope":[
+        "qms.grab.com"
+      ]
+    },
+    {
+      "name": "Grammarly",
+      "program_url": "https://hackerone.com/grammarly",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "grammarly.io",
+        "grammarlyaws.com",
+        "grammarly.com",
+        "grammarly.ai"
+      ],
+      "out_of_scope":[
+        "send.grammarly.com",
+        "calendar.grammarly.com",
+        "support.grammarly.com",
+        "status.grammarly.com"
+      ]
+    },
+    {
+      "name": "Greenhouse.io",
+      "program_url": "https://hackerone.com/greenhouse",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "greenhouse.io"
+      ],
+      "out_of_scope":[
+        "community.greenhouse.io",
+        "resources.greenhouse.io",
+        "store.greenhouse.io"
+      ]
+    },
+    {
+      "name": "HackenProof",
+      "program_url": "https://hackenproof.com/hacken/hackenproof",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "hackenproof.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "HackerOne",
+      "program_url": "https://hackerone.com/security",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "hackerone-user-content.com",
+        "hackerone.com",
+        "hackerone-ext-content.com",
+        "ctf.hacker101.com",
+        "hackerone.net",
+        "pullrequest.com"
+      ],
+      "out_of_scope":[
+        "support.hackerone.com",
+        "go.hacker.one",
+        "info.hacker.one",
+        "hackeronestatus.com",
+        "ma.hacker.one"
+      ]
+    },
+    {
+      "name": "Harvest",
+      "program_url": "https://hackerone.com/harvest",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "harvestapp.com",
+        "forecastapp.com",
+        "getharvest.com"
+      ],
+      "out_of_scope":[
+        "harveststatus.com",
+        "help.getharvest.com",
+        "support.forecastapp.com"
+      ]
+    },
+    {
+      "name": "Host-Gator",
+      "program_url": "https://bugcrowd.com/hostgator",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "hostgator.com"
+      ],
+      "out_of_scope":[
+        "hostgator.com.br",
+        "hostgator.mx",
+        "ebook.hostgator.com",
+        "staff.hostgator.com"
+      ]
+    },
+    {
+      "name": "Hostinger",
+      "program_url": "https://www.hostinger.in/responsible-disclosure-policy",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "hostinger.com",
+        "zyro.com",
+        "hosting24.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "1Shoppingcart.com",
+      "program_url": "https://bugcrowd.com/shoppingcart",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "1shoppingcart.com",
+        "mcssl.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Hotbit",
+      "program_url": "https://hackenproof.com/hotbit/hotbit",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "hotbit.io"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "SnapNames",
+      "program_url": "https://bugcrowd.com/snapnames",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "snapnames.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Newfold-Vdeck",
+      "program_url": "https://bugcrowd.com/newfold-vdeck-bb",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "ipage.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "HubSpot",
+      "program_url": "https://bugcrowd.com/hubspot",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "hs-sites.com",
+        "hubapi.com",
+        "hubspot.com",
+        "hubspot.net",
+        "hubspotemail.net"
+      ],
+      "out_of_scope":[
+        "getsidekick.com",
+        "other.inbound.org",
+        "otherblog.hubspot.com",
+        "othershop.hubspot.com",
+        "othersurveys.success.hubspot.com",
+        "otherintegrate.hubspot.com",
+        "otherux.hubspot.com",
+        "otherink1001.hubspot.com"
+      ]
+    },
+    {
+      "name": "Huobi",
+      "program_url": "https://hackenproof.com/huobi-global/huobi",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "huobi.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Hyatt",
+      "program_url": "https://hackerone.com/hyatt",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "hyatt.com",
+        "hyattconnect.com",
+        "hyattdev.com",
+        "cheapcaribbean.com",
+        "fijiairways.com",
+        "triseptsolutions.com",
+        "globalbookingsolutions.com",
+        "nowresorts.com",
+        "sunscaperesorts.com",
+        "buschgardens.com",
+        "sesameplace.com",
+        "hotelcasavelas.com",
+        "grandvelas.com",
+        "travelimpressions.com",
+        "velasvallarta.com",
+        "blueskytours.com",
+        "globalhotelchoices.com",
+        "marktravel.com",
+        "beachbound.com",
+        "extraholidaysvacations.com",
+        "breathlessresorts.com",
+        "dreamsresorts.com",
+        "travelbrandsagent.com",
+        "funjet.com",
+        "secretsresorts.com",
+        "skyteam.com",
+        "discoverycove.com",
+        "seaworld.com",
+        "universalstudioshollywood.com",
+        "palladiumhotelgroup.com",
+        "universalorlandovacations.com",
+        "wynnvacations.com",
+        "amrcollection.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Ibotta",
+      "program_url": "https://bugcrowd.com/ibotta",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "ibotta.com",
+        "ibops.net"
+      ],
+      "out_of_scope":[
+        "sampling.ibotta.com"
+      ]
+    },
+    {
+      "name": "Verisign",
+      "program_url": "https://bugcrowd.com/verisign",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "youcouldbe.com",
+        "domainscope.com",
+        "namestudioforsocial.com",
+        "namestudio.com",
+        "verisign.com",
+        "verisign-grs.com",
+        "gtld-servers.net",
+        "root-servers.net",
+        "verisigndns.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Imgur",
+      "program_url": "https://hackerone.com/imgur",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "imgur.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Indeed",
+      "program_url": "https://bugcrowd.com/indeed",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "indeed.com",
+        "indeed.tech"
+      ],
+      "out_of_scope":[
+        "chatbot.indeed.com",
+        "simplyhired.com",
+        "t.indeed.com"
+      ]
+    },
+    {
+      "name": "CyberGhost",
+      "program_url": "https://bugcrowd.com/cyberghost",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "cyberghost.com",
+        "cyberghost.app",
+        "cyberghostvpn.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Private-Internet-Access",
+      "program_url": "https://bugcrowd.com/privateinternetaccess",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "privateinternetaccess.com",
+        "piaservers.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Instacart",
+      "program_url": "https://hackerone.com/instacart",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "instacart.com",
+        "instacart.tools"
+      ],
+      "out_of_scope":[
+        "brand.instacart.com",
+        "careers.instacart.com",
+        "carrotstore.instacart.com",
+        "corporate.instacart.com",
+        "covidresponse.instacart.com",
+        "design.instacart.com",
+        "email.instacart.com",
+        "life.instacart.com",
+        "news.instacart.com",
+        "tech.instacart.com",
+        "enterprise-status.instacart.com",
+        "instacart.careers"
+      ]
+    },
+    {
+      "name": "Intercom",
+      "program_url": "https://bugcrowd.com/intercom",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "intercom.io",
+        "intercom.com",
+        "intercomassets.com",
+        "intercomcdn.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Intigriti",
+      "program_url": "https://www.intigriti.com/programs/intigriti/intigriti/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "intigriti.com",
+        "intigriti.me"
+      ],
+      "out_of_scope":[
+        "intigriti.io",
+        "blog.intigriti.com",
+        "kb.intigriti.com",
+        "autodiscover.intigriti.com",
+        "go.intigriti.com",
+        "mail.intigriti.com",
+        "click.intigriti.com",
+        "welcome.intigriti.com",
+        "newsletter.intigriti.com",
+        "careers.intigriti.com",
+        "swag.intigriti.com",
+        "t.intigriti.com",
+        "intigriti.net",
+        "api.intercom.io",
+        "status.intigriti.com"
+      ]
+    },
+    {
+      "name": "InVision",
+      "program_url": "https://bugcrowd.com/invision",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "invisionapp.com",
+        "designbetter.co"
+      ],
+      "out_of_scope":[
+        "support.invisionapp.com",
+        "status.invisionapp.com"
+      ]
+    },
+    {
+      "name": "IoTeX",
+      "program_url": "https://hackenproof.com/iotex/iotex",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "iotex.io",
+        "iotexscan.io",
+        "iotexscout.io",
+        "machinefi.com",
+        "iotube.org",
+        "iopay.me"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "IRCCloud",
+      "program_url": "https://hackerone.com/irccloud",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "irccloud.com",
+        "irccloud-cdn.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Jivochat",
+      "program_url": "https://jivochat.com/bugbounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "jivosite.com",
+        "jivochat.com",
+        "jivochat.com.br"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Jora",
+      "program_url": "https://bugcrowd.com/jora",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "jora.com",
+        "jora.xyz"
+      ],
+      "out_of_scope":[
+        "joralocal.com.au"
+      ]
+    },
+    {
+      "name": "Kaleido",
+      "program_url": "https://bugcrowd.com/kaleido",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "remove.bg",
+        "designify.com",
+        "kaleido.ai",
+        "unscreen.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Keeper-Security",
+      "program_url": "https://bugcrowd.com/keepersecurity",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "keepersecurity.com",
+        "keepersecurity.eu"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Kenna-Security",
+      "program_url": "https://bugcrowd.com/kennasecurity",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "kennasecurity.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Kindred-Group",
+      "program_url": "https://hackerone.com/kindred_group",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "unibet.com",
+        "unibet.co.uk",
+        "unibet.se",
+        "nj.unibet.com",
+        "pa.unibet.com",
+        "in.unibet.com",
+        "va.unibet.com",
+        "ia.unibet.com",
+        "az.unibet.com",
+        "unibet.fr",
+        "storspiller.com",
+        "bingo.com",
+        "mariacasino.com",
+        "kolikkopelit.com",
+        "casinohuone.com",
+        "igame.com",
+        "vladcazino.ro",
+        "unibet.me",
+        "maria.casino",
+        "ottokasino.com",
+        "kindredext.net",
+        "32red.com",
+        "highrolling.nu"
+      ],
+      "out_of_scope":[
+        "ads.unibet.com",
+        "ads-cdn.unibet.com",
+        "adserving.unibet.com",
+        "livechat.unibet.com",
+        "kindredgroup.com",
+        "kindredaffiliates.com",
+        "affiliates.unibet.fr",
+        "af.unibet.fr",
+        "media.unibet.fr",
+        "link.bingo.com",
+        "a1s.unibet.com",
+        "nj.unibet.com",
+        "cdn2.unibet.com",
+        "pa.unibet.com",
+        "in.unibet.com",
+        "custhelp.com",
+        "va.unibet.com",
+        "ia.unibet.com",
+        "az.unibet.com",
+        "on.unibet.ca"
+      ]
+    },
+    {
+      "name": "Kraken",
+      "program_url": "https://www.kraken.com/en-us/features/security/bug-bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "kraken.com",
+        "cryptowat.ch",
+        "cryptofacilities.com",
+        "cryptofacilities.co.uk",
+        "cfbenchmarks.com",
+        "staked.us"
+      ],
+      "out_of_scope":[
+        "blog.kraken.com",
+        "docs.kraken.com",
+        "status.kraken.com",
+        "support.kraken.com",
+        "docs.cryptowat.ch",
+        "surveys.kraken.com",
+        "krakenventures.com",
+        "kraken-culture.notion.site"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "program_url": "https://hackerone.com/kubernetes",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "kubernetes.io",
+        "k8s.io",
+        "gcr.io"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Kucoin",
+      "program_url": "https://hackenproof.com/kucoin/kucoin",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "kucoin.com"
+      ],
+      "out_of_scope":[
+        "support.kucoin.plus",
+        "sandbox.kucoin.com",
+        "store.kucoin.com",
+        "docs.kucoin.com",
+        "intro.kucoin.com",
+        "cert.kucoin.com",
+        "passport.kucoin.com",
+        "sdb.kucoin.com",
+        "sandbox.kucoin.com"
+      ]
+    },
+    {
+      "name": "LANCHAIN.IO",
+      "program_url": "https://hackenproof.com/latoken/lachain-dot-io",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "lachain.io",
+        "ladex.exchange"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Larksuite",
+      "program_url": "https://hackerone.com/lark_technologies",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "larksuite.com",
+        "byteoversea.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "LastPass",
+      "program_url": "https://bugcrowd.com/lastpass",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "lastpass.com"
+      ],
+      "out_of_scope":[
+        "forums.lastpass.com",
+        "blog.lastpass.com",
+        "identity.lastpass.com"
+      ]
+    },
+    {
+      "name": "Latoken",
+      "program_url": "https://hackenproof.com/latoken/latoken-exchange",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "latoken.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "LCX",
+      "program_url": "https://hackenproof.com/lcx/lcx",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "lcx.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Liberapay",
+      "program_url": "https://hackerone.com/liberapay",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "liberapay.com"
+      ],
+      "out_of_scope":[
+        "libravatar.org"
+      ]
+    },
+    {
+      "name": "LifeOmic",
+      "program_url": "https://hackerone.com/lifeomic",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "lifeomic.com",
+        "lifeomic.com",
+        "skillspring.com"
+      ],
+      "out_of_scope":[
+        "us.lifeomic.com",
+        "info.lifeomic.com",
+        "fed.*.lifeomic.com",
+        "fed.*.skillspring.com"
+      ]
+    },
+    {
+      "name": "Lime",
+      "program_url": "https://bugcrowd.com/lime",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "lime.bike"
+      ],
+      "out_of_scope":[
+        "li.me",
+        "help.li.me",
+        "*.li.me",
+        "*.limeinternal.com"
+      ]
+    },
+    {
+      "name": "LINE",
+      "program_url": "https://hackerone.com/line",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "line.me",
+        "line-apps.com",
+        "line.naver.jp",
+        "line.biz"
+      ],
+      "out_of_scope":[
+        "prod-fido-fido2-server.line-apps.com",
+        "*nvapis.line.me"
+      ]
+    },
+    {
+      "name": "Lob",
+      "program_url": "https://hackerone.com/lob",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "lob.com",
+        "lob-assets.com"
+      ],
+      "out_of_scope":[
+        "email.lob.com",
+        "get.lob.com",
+        "status.lob.com",
+        "cio.lob.com",
+        "go.lob.com",
+        "support.lob.com",
+        "library.lob.com",
+        "runkit.com",
+        "wp.lob.com"
+      ]
+    },
+    {
+      "name": "Localize",
+      "program_url": "https://hackerone.com/localizejs",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "localizestaging.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "LocalTapiola",
+      "program_url": "https://hackerone.com/localtapiola",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "lahitapiolarahoitus.fi",
+        "lahitapiola.fi",
+        "tapiola.fi"
+      ],
+      "out_of_scope":[
+        "toimitilat.lahitapiola.fi",
+        "tandem.lahitapiola.fi",
+        "authenticate.lahitapiola.fi"
+      ]
+    },
+    {
+      "name": "Logitech",
+      "program_url": "https://hackerone.com/logitech",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "logi.com",
+        "logitech.com",
+        "logitechg.com",
+        "jaybirdsport.com",
+        "ultimateears.com",
+        "astrogaming.com",
+        "logitech.com.cn",
+        "streamlabs.com",
+        "getmeetio.com",
+        "meetiobook.com",
+        "logicool.co.jp",
+        "logitech-partner.com",
+        "ultimateearsuniversity.com",
+        "mysqueezebox.com",
+        "logitechmusic.com",
+        "logitechauthorization.com",
+        "logitech-channel-marketing.com",
+        "logitech.zendesk.com",
+        "harmonyremote.com",
+        "slimdevices.com",
+        "uesmartradio.com",
+        "logitechstore.com.br",
+        "myharmony.com",
+        "streamlabscharity.com",
+        "melonapp.com",
+        "oslo.io",
+        "lucra.live",
+        "logitech.io",
+        "wlo.link",
+        "mevo.com",
+        "logitechgchallenge.com",
+        "logitechclub.com",
+        "crossclip.com",
+        "lukwerks.com",
+        "cognitiveperformer.com",
+        "challonge.com"
+      ],
+      "out_of_scope":[
+        "*.saitekforum.com",
+        "*.saitek-fr.com",
+        "*.saitek.com",
+        "*.teambeyond.net",
+        "*.wilife.com"
+      ]
+    },
+    {
+      "name": "LogMeOnce",
+      "program_url": "https://www.logmeonce.com/vulnerability-disclosure-policy",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "logmeonce.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Lululemon",
+      "program_url": "https://bugcrowd.com/lululemon",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "lululemon.com",
+        "lululemon.co.uk"
+      ],
+      "out_of_scope":[
+        "*.lululemon.cn"
+      ]
+    },
+    {
+      "name": "Lyst",
+      "program_url": "https://hackerone.com/lyst",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "lyst.com",
+        "lystit.com",
+        "lyst.co"
+      ],
+      "out_of_scope":[
+        "help.lyst.com"
+      ]
+    },
+    {
+      "name": "MakeMyTrip",
+      "program_url": "https://www.makemytrip.com/pwa-hlp/mmtbb/report",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "makemytrip.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Mapbox",
+      "program_url": "https://hackerone.com/mapbox",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "mapbox.com"
+      ],
+      "out_of_scope":[
+        "geojson.io",
+        "status.mapbox.com",
+        "email.mapbox.com"
+      ]
+    },
+    {
+      "name": "Marriott",
+      "program_url": "https://hackerone.com/marriott",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "marriott.com",
+        "ritzcarlton.com",
+        "marrtool.com"
+      ],
+      "out_of_scope":[
+        "milux.marriott.com",
+        "luxurybrands.marriott.com",
+        "apps.ritzcarlton.com",
+        "element-hotels.marriott.com",
+        "vacations.marriott.com",
+        "springhillsuites.marriott.com",
+        "careers.marriott.com",
+        "*.phunware.com",
+        "travelagents.marriott.com",
+        "*moxymix*.marriott.com",
+        "*.ritzcarltonyachtcollection.com",
+        "towneplacesuites.marriott.com"
+      ]
+    },
+    {
+      "name": "MasterCard",
+      "program_url": "https://bugcrowd.com/mastercard",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "simplify.com",
+        "mastercard.us",
+        "mastercard.ch",
+        "mastercard.ru",
+        "mastercard.com.au",
+        "mastercard.com",
+        "mastercard.nl"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Matomo",
+      "program_url": "https://hackerone.com/matomo",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "matomo.cloud"
+      ],
+      "out_of_scope":[
+        "matomo.org"
+      ]
+    },
+    {
+      "name": "Microsoft-Online-Services",
+      "program_url": "https://www.microsoft.com/en-us/msrc/bounty-microsoft-cloud",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "microsoft.com",
+        "office365.com",
+        "office.com",
+        "live.com",
+        "outlook.com",
+        "lync.com",
+        "sharepoint.com",
+        "sharepointonline.com",
+        "svc.ms",
+        "onedrive.com",
+        "1drv.com",
+        "livefilestore.com",
+        "skype.com",
+        "yammer.com",
+        "sway.com",
+        "live.net"
+      ],
+      "out_of_scope":[
+        "attachments.office.net",
+        "attachments.live.net",
+        "attachments.outlook.live.net"
+      ]
+    },
+    {
+      "name": "Mobikwik",
+      "program_url": "https://www.mobikwik.com/bug-bounty/guidelines",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "mobikwik.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Monash-MBB",
+      "program_url": "https://bugcrowd.com/monash-mbb",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "monash.edu",
+        "mobile.monash",
+        "my.monash",
+        "monashcollege.edu.au",
+        "nutrip.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Moneybird",
+      "program_url": "https://hackerone.com/moneybird",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "moneybird.com",
+        "moneybirdstorage.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Moneytree-KK",
+      "program_url": "https://bugcrowd.com/moneytreekkog",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "getmoneytree.com",
+        "moneytree.jp"
+      ],
+      "out_of_scope":[
+        "moneytree.jp",
+        "getmoneytree.com"
+      ]
+    },
+    {
+      "name": "Artifex",
+      "program_url": "https://www.ghostscript.com/Bug_bounty_program.html",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "artifex.com",
+        "ghostscript.com",
+        "mupdf.com",
+        "smartoffice.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "N26",
+      "program_url": "https://n26.com/en-eu/bug-bounty-program",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "tech26.de",
+        "n26.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Narkasa",
+      "program_url": "https://support.narkasa.com/hc/en-us/articles/360011019458-Bug-Bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "narkasa.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Netplus",
+      "program_url": "https://gobugfree.com/programs/netplus",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "netplus.ch",
+        "netplus.tv"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Netflix",
+      "program_url": "https://bugcrowd.com/netflix",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "netflix.com",
+        "nflxvideo.net",
+        "nflxext.com",
+        "nflximg.net",
+        "nflxso.net"
+      ],
+      "out_of_scope":[
+        "ir.netflix.com",
+        "ir.netflix.net",
+        "netflixinvestor.com"
+      ]
+    },
+    {
+      "name": "Netgear",
+      "program_url": "https://bugcrowd.com/netgear",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "netgear.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Bitget",
+      "program_url": "https://bugcrowd.com/bitget-og",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "bitget.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Gearset",
+      "program_url": "https://bugcrowd.com/gearset-mbb",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "gearset.com"
+      ],
+      "out_of_scope":[
+        "app.gearset.com",
+        "us.app.gearset.com",
+        "eu.app.gearset.com",
+        "ap.app.gearest.com",
+        "api.gearset.com",
+        "api.gearset.com"
+      ]
+    },
+    {
+      "name": "NameJet",
+      "program_url": "https://bugcrowd.com/namejet",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "namejet.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "New-Relic",
+      "program_url": "https://hackerone.com/newrelic",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "newrelic.com",
+        "infrastructure.newrelic.com",
+        "infrastructure-data.newrelic.com",
+        "blog.newrelic.com",
+        "eu.newrelic.com",
+        "nr-data.net",
+        "nr-ops.net"
+      ],
+      "out_of_scope":[
+        "try.newrelic.com",
+        "ir.newrelic.com",
+        "status.newrelic.com",
+        "newrelic.zendesk.com",
+        "t.newrelic.com",
+        "issues.newrelic.com",
+        "staging.issues.newrelic.com"
+      ]
+    },
+    {
+      "name": "Nextcloud",
+      "program_url": "https://hackerone.com/nextcloud",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "nextcloud.com"
+      ],
+      "out_of_scope":[
+        "drone.nextcloud.com",
+        "conf.nextcloud.com",
+        "cloud.nextcloud.com",
+        "demo.nextcloud.com",
+        "sentry.nextcloud.com",
+        "try.nextcloud.com"
+      ]
+    },
+    {
+      "name": "Nextiva",
+      "program_url": "https://www.nextiva.com/security-policy.html",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "nextiva.com",
+        "nextiva.im",
+        "nextos.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "NordVPN",
+      "program_url": "https://hackerone.com/nordsecurity",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "nordvpn.com"
+      ],
+      "out_of_scope":[
+        "affiliates.nordvpn.com",
+        "go.nordvpn.com",
+        "zendesk.nordvpn.com",
+        "prevention.nordvpn.com",
+        "595468.nordvpn.com",
+        "c.nordvpn.com",
+        "bounces.nordvpn.com",
+        "links*.nordvpn.com",
+        "mltrack.nordvpn.com",
+        "mltracksgrd.nordvpn.com",
+        "support.nordvpn.com",
+        "nordaccount.com",
+        "nordcheckout.com",
+        "nordsecurity.com"
+      ]
+    },
+    {
+      "name": "Nozbe",
+      "program_url": "https://nozbe.com/bug-bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "nozbe.app",
+        "nozbe.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Oasis-Protocol-Foundation",
+      "program_url": "https://hackerone.com/oasis_protocol_foundation",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "oasiscloud.io"
+      ],
+      "out_of_scope":[
+        "*.oasisprotocol.org"
+      ]
+    },
+    {
+      "name": "Offensive-Security",
+      "program_url": "https://www.offensive-security.com/bug-bounty-program",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "offensive-security.com",
+        "exploit-db.com",
+        "kali.org",
+        "backtrack-linux.org"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Okcoin",
+      "program_url": "https://hackenproof.com/okcoin/okcoin",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "okcoin.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Okta",
+      "program_url": "https://bugcrowd.com/okta",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "oktapreview.com"
+      ],
+      "out_of_scope":[
+        "*.okta.com",
+        "*.trexcloud.com"
+      ]
+    },
+    {
+      "name": "OKX",
+      "program_url": "https://hackenproof.com/okx-1/okx",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "okx.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Ola",
+      "program_url": "https://whitehat.olacabs.com",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "olacabs.com",
+        "olamoney.com",
+        "ola.foundation",
+        "olaelectric.in",
+        "mission-electric.in",
+        "ola.institute"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Omise",
+      "program_url": "https://hackerone.com/omise",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "omise.co"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "OpenSea",
+      "program_url": "https://hackerone.com/opensea",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "opensea.io"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Openware",
+      "program_url": "https://hackenproof.com/openware/openware",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "yellow.org"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Opera-Public-Bug-Bounty",
+      "program_url": "https://bugcrowd.com/opera",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "opera.com",
+        "loomi.tv",
+        "gamemaker.io",
+        "osp.opera.software",
+        "opera.software",
+        "opera.technology",
+        "yoyogames.com",
+        "gx.games",
+        "sec-tunnel.com",
+        "opera-api.com",
+        "oleads.com",
+        "dailyadvent.com",
+        "apex-football.com",
+        "operafootball.com",
+        "opera-mini.net",
+        "opera.news",
+        "operanewsapp.com",
+        "feednews.com"
+      ],
+      "out_of_scope":[
+        "investor.opera.com",
+        "help.yoyogames.com",
+        "bugs.yoyogames.com",
+        "admanager.opera.co",
+        "accountsstage.yoyogames.co",
+        "certs.opera.co",
+        "checkout.opera.com",
+        "control.gx-servers.opera.com",
+        "help.gx-servers.opera.co",
+        "verizon-us-seattle.opera-mini.ne",
+        "verizon-us-lvs-seattle.opera-mini.ne",
+        "verizon-us-lvs-ashburn.opera-mini.ne",
+        "05-08-v09.opera-mini.net",
+        "jobs.opera.com",
+        "interstitial.opera-mini.net"
+      ]
+    },
+    {
+      "name": "Opsgenie",
+      "program_url": "https://bugcrowd.com/opsgenie",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "opsgenie.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Optimizely",
+      "program_url": "https://bugcrowd.com/optimizely",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "optimizely.com",
+        "optimizely-edge.com",
+        "episerver.net",
+        "welcomesoftware.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Origin-Energy",
+      "program_url": "https://bugcrowd.com/originenergy-og1",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "origindigital-pac.com.au",
+        "odcdn.com.au",
+        "support.originenergy.com.au",
+        "api.originenergy.com.au",
+        "download.originenergy.com.au",
+        "originenergy.com.au"
+      ],
+      "out_of_scope":[
+        "auth.api.originenergy.com.au",
+        "origin-energy.formstack.com"
+      ]
+    },
+    {
+      "name": "OWASP-ZAP",
+      "program_url": "https://bugcrowd.com/owaspzap",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "zaproxy.org"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "P2B-Exchange",
+      "program_url": "https://hackenproof.com/p2b-exchange/p2b-exchange",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "p2pb2b.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Paddy-Power-Betfair",
+      "program_url": "https://hackerone.com/flutteruki",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "betfair.com",
+        "paddypower.com",
+        "betfair.es",
+        "betfair.it",
+        "betfair.ro",
+        "betfair.se",
+        "paddypower.it",
+        "skygamingcontent.com",
+        "skycasino.com",
+        "sbgcdn.com",
+        "skybet.com",
+        "betviewapi.com",
+        "skypoker.com",
+        "skyvegas.com",
+        "skybingo.com",
+        "sbgcore.com",
+        "platformservices.io",
+        "skybetservices.com",
+        "sbgorigin.com",
+        "sbgservices.com",
+        "bonne-terre-data-layer.com",
+        "skybettingandgaming.com",
+        "msgsvc.io",
+        "operationstechnology.io",
+        "securityservices.io",
+        "skybet.net",
+        "skybet.co.uk",
+        "datops.io",
+        "hestview.com",
+        "sbgtest.net",
+        "skybettest.net",
+        "skybettingandgaming.design",
+        "skybettingandgaming.info",
+        "betsharedservices.io",
+        "plateng.io"
+      ],
+      "out_of_scope":[
+        "*.ads.betfair.com",
+        "*.content.betfair.*",
+        "*.betting.betfair.com",
+        "*.promos.betfair.*",
+        "*.us.betfair.com",
+        "*asp.betfair.com",
+        "community.betfair.com",
+        "*.content-cache.betfair.com",
+        "*.responsiblegaming.paddypower.*",
+        "*.responsiblegambling.betfair.*",
+        "*.betfair.com.au",
+        "*.vegasportal.io",
+        "*.sbpartner.it",
+        "affiliatehub.skybet.com",
+        "*.occloud.io",
+        "*.sportinglife.com",
+        "*.oddscheckerglobalmedia.*",
+        "partners.skybet.com",
+        "*.skybet.de",
+        "*.skybet.it",
+        "*.skybetcareers.com",
+        "technology.skybettingandgaming.com",
+        "*.confrontaquote.it",
+        "*.skybetpartner.de",
+        "*.super6.it",
+        "*.freebetlottery.com",
+        "*.mrcasinotti.*",
+        "*.skybettingandgamingresearch.com",
+        "*.pokernews.com",
+        "*.casinosmash.com",
+        "*.italiapokerforum.com",
+        "*.italiapokerclub.com",
+        "*.assopoker.com",
+        "super6.skysports.com",
+        "itv7.itv.com",
+        "email1.skybet.com",
+        "skymail.sky.com",
+        "*.sbgpeople.com",
+        "*.sbga.me",
+        "*.sbg.life",
+        "*.bonuschecker.*",
+        "*.casinochecker.*",
+        "*.cyanbidco.com",
+        "*.ogmgroup.com",
+        "*.sigcasinotti.com",
+        "*.whobetting.com",
+        "*.whoscored.co.uk",
+        "*.whoscored.com",
+        "skyrgs.blueprintgaming.com",
+        "*.skybet-it.info",
+        "*.skybetchiusuraconto.it",
+        "*.sbgdataintl.com",
+        "*.aams.it",
+        "*.pokerstars.*",
+        "*.pokerstarssports.*",
+        "*.betstars.com",
+        "*.betstarsnj.com",
+        "*.foxbet.com",
+        "*.core-gaming.io",
+        "*.coregaming.co.uk",
+        "*.bsidesleedsctf.com",
+        "*.purplefuzzyybear.com",
+        "*.sbgcolab.com",
+        "*.skybetgraduates.com",
+        "*.sbggraduates.com",
+        "*.tg-event.co.uk",
+        "community.skypoker.com",
+        "community.staging.skypoker.com",
+        "skybet-com.mail.protection.outlook.com",
+        "*.tradingmodels.io",
+        "sbagmail.skybettingandgaming.com",
+        "*.s6.sbgservices.com",
+        "*.sbgmail.skybettingandgaming.com",
+        "*.email.skybet.com",
+        "*.skybusinessemail.com"
+      ]
+    },
+    {
+      "name": "Palantir-Public",
+      "program_url": "https://hackerone.com/palantir_public",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "palantir.com",
+        "palantir.tech",
+        "palantir.build",
+        "palantircloud.com",
+        "palantircloud.co.uk",
+        "palantirfoundry.com",
+        "palantirfoundry.co.uk",
+        "palantirfoundry.de",
+        "palantirfoundry.fr",
+        "palantirfoundry.com.au",
+        "palantirgov.com",
+        "foundrygov.com"
+      ],
+      "out_of_scope":[
+        "learn.palantir.com",
+        "go.palantir.com",
+        "certification.palantir.com",
+        "training.palantir.com",
+        "investors.palantir.com",
+        "explore.palantir.com",
+        "blog.palantir.com",
+        "info.palantir.com",
+        "gear.palantir.com"
+      ]
+    },
+    {
+      "name": "Pandora",
+      "program_url": "https://hackenproof.com/pandora/pandora-web",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "pandora.digital"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Panther-Labs",
+      "program_url": "https://hackerone.com/panther_labs",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "panther.com",
+        "runpanther.io",
+        "runpanther.com"
+      ],
+      "out_of_scope":[
+        "*.runpanther.net",
+        "*.pantherlabs.club",
+        "runpanther.zendesk.com",
+        "*.hubspot.com",
+        "status.runpanther.io",
+        "data.stats.runpanther.io",
+        "slack.runpanther.io",
+        "help.panther.com",
+        "status.panther.com"
+      ]
+    },
+    {
+      "name": "Payoneer",
+      "program_url": "https://hackerone.com/payoneer",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "payoneer.com"
+      ],
+      "out_of_scope":[
+        "affiliates.payoneer.com",
+        "register.payoneer.com",
+        "blog.payoneer.com",
+        "community.payoneer.com",
+        "explore.payoneer.com",
+        "tracks.payoneer.com"
+      ]
+    },
+    {
+      "name": "PayPal",
+      "program_url": "https://hackerone.com/paypal",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "loanbuilder.com",
+        "venmo.com",
+        "paypal.com",
+        "xoom.com",
+        "py.pl",
+        "braintreepayments.com",
+        "braintree-api.com",
+        "paylution.com",
+        "swiftfinancial.com",
+        "paypalobjects.com",
+        "paypalcorp.com",
+        "braintreegateway.com",
+        "sandbox.braintreegateway.com"
+      ],
+      "out_of_scope":[
+        "*.paypal.cn",
+        "braintree.com"
+      ]
+    },
+    {
+      "name": "Paytm",
+      "program_url": "https://bugbounty.paytm.com",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "paytm.com",
+        "paytm.in",
+        "mypaytm.com",
+        "paytmmall.com",
+        "paytmbank.com",
+        "paytmfirstgames.com",
+        "gamepind.com",
+        "paytmmoney.com",
+        "paytm.ca",
+        "paytmlabs.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Personal-Capital",
+      "program_url": "https://bugcrowd.com/personalcapital",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "devstaging.pcapcloud.com"
+      ],
+      "out_of_scope":[
+        "*.personalcapital.com",
+        "*.empower.com",
+        "*.retirementpartner.com"
+      ]
+    },
+    {
+      "name": "Pexels",
+      "program_url": "https://bugcrowd.com/pexels",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "pexels.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Picky-Assist",
+      "program_url": "https://pickyassist.com/blog/bug-bounty-program-bug-beacon",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "pickyassist.com"
+      ],
+      "out_of_scope":[
+        "feedbacks.pickyassist.com",
+        "status.pickyassist.com",
+        "help.pickyassist.com"
+      ]
+    },
+    {
+      "name": "Ping-Identity",
+      "program_url": "https://hackerone.com/pingidentity",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "pingone.com"
+      ],
+      "out_of_scope":[
+        "*.pingidentity.com",
+        "admin.pingone.com",
+        "api.pingone.com",
+        "desktop.pingone.com",
+        "*.pingidentity.io",
+        "test-desktop.pingone.com",
+        "test-sso.connect.pingidentity.com",
+        "authenticator.pingone.com",
+        "*.pingidentity.net",
+        "console.pingone.com",
+        "uploads.pingone.com",
+        "uploads-staging.pingone.com"
+      ]
+    },
+    {
+      "name": "Pinterest",
+      "program_url": "https://bugcrowd.com/pinterest",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "pinterest.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Pixabay",
+      "program_url": "https://bugcrowd.com/pixabay",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "pixabay.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Pixiv",
+      "program_url": "https://hackerone.com/pixiv",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "booth.pm",
+        "pixiv.net",
+        "vroid.com",
+        "fanbox.cc",
+        "neoket.net"
+      ],
+      "out_of_scope":[
+        "factory.pixiv.net",
+        "*.pixiv.co.jp"
+      ]
+    },
+    {
+      "name": "Plaid",
+      "program_url": "https://hackerone.com/plaid",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "plaid.com",
+        "quovo.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "PlanetHoster",
+      "program_url": "https://bugcrowd.com/planethosterinc",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "planethoster.com",
+        "planethoster.net",
+        "n0c.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Playstation",
+      "program_url": "https://hackerone.com/playstation",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "playstation.com",
+        "sonyentertainmentnetwork.com",
+        "playstation.net"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Polkalokr",
+      "program_url": "https://hackenproof.com/polkalokr/polkalokr-1",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "polkalokr.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Poloniex",
+      "program_url": "https://hackerone.com/poloniex",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "poloniex.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Pon-Cat",
+      "program_url": "https://www.pon-cat.com/nl/responsible-disclosure",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "pon-cat.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Porkbun",
+      "program_url": "https://porkbun.com/products/bug_bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "porkbun.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Port-of-Antwerp",
+      "program_url": "https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "c-point.be",
+        "portofantwerp.com",
+        "portofantwerpbruges.com"
+      ],
+      "out_of_scope":[
+        "jobs.portofantwerp.com",
+        "jobs.portofantwerpbruges.com",
+        "media.portofantwerp.com",
+        "media.portofantwerpbruges.com",
+        "future.portofantwerp.com",
+        "future.portofantwerpbruges.com"
+      ]
+    },
+    {
+      "name": "PortSwigger-Web-Security",
+      "program_url": "https://hackerone.com/portswigger",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "portswigger.net",
+        "forum.portswigger.net",
+        "enterprise-demo.portswigger.net"
+      ],
+      "out_of_scope":[
+        "*.web-security-academy.net",
+        "*.portswigger.net"
+      ]
+    },
+    {
+      "name": "Priceline",
+      "program_url": "https://hackerone.com/priceline",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "rezserver.com",
+        "bookingholdings.com",
+        "getaroom.com",
+        "priceline.com"
+      ],
+      "out_of_scope":[
+        "stockroom.production.getaroom.com",
+        "*.testaroom.cloud",
+        "www.airportrentalcars.com",
+        "breadcrumb.getaroom.com",
+        "*.roomvaluesteam.com",
+        "*.testaroom.com",
+        "availability.getaroom.com",
+        "extranet.getaroom.com",
+        "supply.getaroom.com"
+      ]
+    },
+    {
+      "name": "ProtonMail",
+      "program_url": "https://protonmail.com/blog/protonmail-bug-bounty-program",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "proton.me",
+        "simplelogin.io"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "ProtonVPN",
+      "program_url": "https://protonvpn.com/blog/bug-bounty-program",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "protonvpn.com",
+        "protonvpn.ch"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "PureVPN",
+      "program_url": "https://www.purevpn.com/bug-bounty-program",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "purevpn.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Python-Anywhere",
+      "program_url": "https://help.pythonanywhere.com/pages/BugBounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "pythonanywhere.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Quizlet",
+      "program_url": "https://bugcrowd.com/quizlet",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "quizlet.com",
+        "slader.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Quora",
+      "program_url": "https://hackerone.com/quora",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "quora.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Rarible",
+      "program_url": "https://bugcrowd.com/rarible-ogmbb",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "rarible.com",
+        "rari.foundation"
+      ],
+      "out_of_scope":[
+        "docs.rarible.com",
+        "websitefeedback.rarible.com",
+        "websiteguide.rarible.com",
+        "websiteimg.rarible.com",
+        "websitevote.rarible.com"
+      ]
+    },
+    {
+      "name": "RecargaPay",
+      "program_url": "https://hackerone.com/recargapay",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "recarga.com",
+        "recargapay.com.br"
+      ],
+      "out_of_scope":[
+        "recargapay.com.*",
+        "*.recargaPay.com"
+      ]
+    },
+    {
+      "name": "Recorded-Future",
+      "program_url": "https://hackerone.com/recorded-future",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "recordedfuture.com",
+        "therecord.media"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Reddit",
+      "program_url": "https://hackerone.com/reddit",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "reddit.com",
+        "snooguts.net",
+        "force.com",
+        "redditmedia.com",
+        "redditblog.com",
+        "reddithelp.com",
+        "redditforbusiness.com",
+        "redditinc.com",
+        "spiketrap.io",
+        "redd.it",
+        "redditstatic.com",
+        "reddituploads.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Redox",
+      "program_url": "https://bugcrowd.com/redox",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "redoxengine.com"
+      ],
+      "out_of_scope":[
+        "dashboard.redoxengine.com",
+        "candi.redoxengine.com",
+        "api.redoxengine.com",
+        "sso.redoxengine.com",
+        "redox.slack.com",
+        "api.segment.io"
+      ]
+    },
+    {
+      "name": "Electroneum",
+      "program_url": "https://bugcrowd.com/electroneum",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "electroneum.com",
+        "anytask.com",
+        "thesecurityteam.rocks"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Remitano",
+      "program_url": "https://security.remitano.com",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "remitano.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Republik-AG",
+      "program_url": "https://gobugfree.com/programs/republik",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "republik.ch"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Robinhood",
+      "program_url": "https://hackerone.com/robinhood",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "robinhood.com",
+        "rhinternal.net"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Roblox",
+      "program_url": "https://hackerone.com/roblox",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "roblox.com",
+        "rbx.com",
+        "guilded.gg",
+        "ra.roblox.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Rockstar-Games",
+      "program_url": "https://hackerone.com/rockstargames",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "rockstargames.com",
+        "lifeinvader.com",
+        "rockstarnorth.com"
+      ],
+      "out_of_scope":[
+        "faspex.rockstargames.com",
+        "emailcontent.rockstargames.com",
+        "bomgar.rockstargames.com",
+        "any-invalid-domains.rockstargames.com"
+      ]
+    },
+    {
+      "name": "Router",
+      "program_url": "https://hackenproof.com/router/router-web",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "routerprotocol.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "RubyGems",
+      "program_url": "https://hackerone.com/rubygems",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "rubygems.org"
+      ],
+      "out_of_scope":[
+        "help.rubygems.org",
+        "support.rubygems.org",
+        "uptime.rubygems.org",
+        "blog.rubygems.org",
+        "guide.rubygems.org",
+        "stats.rubygems.org",
+        "status.rubygems.org"
+      ]
+    },
+    {
+      "name": "RupiahToken",
+      "program_url": "https://rupiahtoken.com/blog/bug-bounty-program",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "rupiahtoken.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Samsung-Mobile",
+      "program_url": "https://security.samsungmobile.com/rewardsProgram.smsb",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "samsungmobile.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Scopely",
+      "program_url": "https://hackerone.com/scopely",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "scopely.io",
+        "scopely.com",
+        "withbuddies.com"
+      ],
+      "out_of_scope":[
+        "confluence.scopely.io",
+        "jira.scopely.io",
+        "scopely.okta.com",
+        "bamboo.scopely.io"
+      ]
+    },
+    {
+      "name": "SecNews",
+      "program_url": "https://hackerone.com/secnews",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "secnews.gr"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Seek",
+      "program_url": "https://bugcrowd.com/seek",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "seek.com.au",
+        "seek.com",
+        "skinfra.xyz",
+        "outfra.xyz",
+        "sol-data.com",
+        "jobapi.net",
+        "jobapi.io",
+        "certsy.com",
+        "certsynonprod.com",
+        "aips-internal.com",
+        "myseek.xyz"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "SEMrush",
+      "program_url": "https://hackerone.com/semrush",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "semrush.com",
+        "semrush.net",
+        "myinsights.io",
+        "seoquake.com",
+        "sellzone.com",
+        "seoab.io",
+        "scatec.io"
+      ],
+      "out_of_scope":[
+        "*.prowly.com",
+        "*.berush.com",
+        "workflows.semrush.com",
+        "investors.semrush.com",
+        "advocates.semrush.com",
+        "email.semrush.com"
+      ]
+    },
+    {
+      "name": "Shakepay",
+      "program_url": "https://legal.shakepay.com/bug-bounty-program",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "shakepay.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "ShapeShift",
+      "program_url": "https://hackenproof.com/fox-foundation/shapeshift",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "shapeshift.com"
+      ],
+      "out_of_scope":[
+        "shapeshift.zendesk.com",
+        "shapeshift-io.hellonext.co",
+        "beta.shapeshift.com",
+        "auth.shapeshift.com",
+        "portal.shapeshift.io",
+        "portis.io",
+        "coincap.io"
+      ]
+    },
+    {
+      "name": "SHEIN",
+      "program_url": "https://hackerone.com/shein",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "shein.com",
+        "shein.in",
+        "shein.tw",
+        "shein.se",
+        "shein.com.hk",
+        "shein.com.vn",
+        "shein.com.mx",
+        "shein.co.uk",
+        "romwe.com",
+        "romwe.co.in",
+        "romwe.org",
+        "sheingsp.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Shipt",
+      "program_url": "https://hackerone.com/shipt",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "shipt.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Shopify",
+      "program_url": "https://hackerone.com/shopify",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "myshopify.com",
+        "shopify.com",
+        "shop.app",
+        "shopify.plus",
+        "shopifycloud.com",
+        "exchangemarketplace.com",
+        "shopifykloud.com",
+        "linkpop.com",
+        "shopifyinbox.com"
+      ],
+      "out_of_scope":[
+        "investors.shopify.com",
+        "shopify.asia",
+        "go.shopify.com",
+        "*.email.shopify.com",
+        "*.shopify.io",
+        "cdn.shopify.com",
+        "livechat.shopify.com",
+        "community.shopify.com",
+        "partner-training.shopify.com"
+      ]
+    },
+    {
+      "name": "Shoppingcart",
+      "program_url": "https://bugcrowd.com/shoppingcart",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "mcssl.com"
+      ],
+      "out_of_scope":[
+        "*.1shoppingcart.com"
+      ]
+    },
+    {
+      "name": "BigCommerce",
+      "program_url": "https://bugcrowd.com/bigcommerce",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "bigcommerce.com",
+        "bigcommerce.net"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Sidefx",
+      "program_url": "https://hackerone.com/sidefx",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "sidefx.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Silvergoldbull",
+      "program_url": "https://silvergoldbull.se/en/bug-bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "silvergoldbull.ca",
+        "silvergoldbull.com",
+        "silvergoldbull.de",
+        "sgb.co",
+        "alterx.com"
+      ],
+      "out_of_scope":[
+        "affiliates.silvergoldbull.*",
+        "autodiscover.silvergoldbull.*",
+        "faq.silvergoldbull.*",
+        "ifaq.silvergoldbull.*",
+        "ira.silvergoldbull.*",
+        "loan.silvergoldbull.*",
+        "rrsp.silvergoldbull.*",
+        "rsp.silvergoldbull.*",
+        "sell.silvergoldbull.*",
+        "sip.silvergoldbull.*",
+        "storage.silvergoldbull.*",
+        "trade.silvergoldbull.*",
+        "faq.silvergoldbull.*",
+        "ifaq.silvergoldbull.*"
+      ]
+    },
+    {
+      "name": "Skyscanner",
+      "program_url": "https://bugcrowd.com/skyscanner",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "skyscanner.net"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Slack",
+      "program_url": "https://hackerone.com/slack",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "slack.com",
+        "spaces.pm",
+        "quip.com",
+        "slackb.com",
+        "slackatwork.com",
+        "slack-redir.net",
+        "slack-imgs.com"
+      ],
+      "out_of_scope":[
+        "slackhq.com",
+        "*.glitchthegame.com"
+      ]
+    },
+    {
+      "name": "Smartmockups",
+      "program_url": "https://bugcrowd.com/smartmockups",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "smartmockups.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Smartsheet",
+      "program_url": "https://hackerone.com/smartsheet",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "smartsheet.com"
+      ],
+      "out_of_scope":[
+        "channel.smartsheet.com",
+        "*.test.smartsheet.com",
+        "community.smartsheet.com"
+      ]
+    },
+    {
+      "name": "SMTP2GO",
+      "program_url": "https://hackerone.com/smtp2go",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "smtp2go.com"
+      ],
+      "out_of_scope":[
+        " support.smtp2go.com"
+      ]
+    },
+    {
+      "name": "Snapchat",
+      "program_url": "https://hackerone.com/snapchat",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "snapchat.com",
+        "bitmoji.com",
+        "sc-core.net",
+        "bitstrips.com",
+        "spectacles.com"
+      ],
+      "out_of_scope":[
+        "returns.spectacles.com",
+        "support.snapchat.com"
+      ]
+    },
+    {
+      "name": "Socrata",
+      "program_url": "https://bugcrowd.com/tyler-tech-data-insights",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "test-socrata.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Sophos",
+      "program_url": "https://bugcrowd.com/sophos",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "sophos.com",
+        "hitmanpro.com",
+        "reflexion.net",
+        "astaro.com",
+        "cyberoam.com"
+      ],
+      "out_of_scope":[
+        "autodiscover.hitmanpro.com",
+        "app.reflexion.net",
+        "community.sophos.com",
+        "*.ddns.cyberoam.com",
+        "*eventreg.sophos.com",
+        "events.sophos.com",
+        "lyncdiscover.hitmanpro.com",
+        "mev.hitmanpro.com",
+        "tickets.reflexion.net",
+        "*.releaseportal.cyberoam.com",
+        "shop.hitmanpro.com",
+        "sip.hitmanpro.com",
+        "sophos.atlassian.net",
+        "support.hitmanpro.com",
+        "surveys.sophos.com"
+      ]
+    },
+    {
+      "name": "Sorare",
+      "program_url": "https://hackerone.com/sorare",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "sorare.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "SoundCloud",
+      "program_url": "https://bugcrowd.com/soundcloud",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "soundcloud.com",
+        "services.repostnetwork.com",
+        "soundcloud.org",
+        "s-cloud.net"
+      ],
+      "out_of_scope":[
+        "advertising.soundcloud.com",
+        "blog.soundcloud.com",
+        "community.soundcloud.com",
+        "contest.soundcloud.com",
+        "copyright.soundcloud.com",
+        "help.soundcloud.com",
+        "jobs.soundcloud.com",
+        "press.soundcloud.com",
+        "playback.soundcloud.com",
+        "playerone.soundcloud.com",
+        "promote.soundcloud.com",
+        "scdrops.soundcloud.com",
+        "status.soundcloud.com",
+        "soundcloudmail.com"
+      ]
+    },
+    {
+      "name": "SpaceX",
+      "program_url": "https://bugcrowd.com/spacex",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "spacex.com",
+        "starlink.com",
+        "starlinkisp.net"
+      ],
+      "out_of_scope":[
+        "customer.*.pop.starlinkisp.net"
+      ]
+    },
+    {
+      "name": "Cash-App",
+      "program_url": "https://bugcrowd.com/cashapp",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "cash.app",
+        "cashstaging.app",
+        "joinverse.com",
+        "verse.me",
+        "verse.events"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Rec",
+      "program_url": "https://bugcrowd.com/recroom-og",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "rec.net"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Spokeo",
+      "program_url": "https://www.spokeo.com/bug-bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "spokeo.com",
+        "freepeopledirectory.com",
+        "spokeoaffiliates.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Spotify",
+      "program_url": "https://hackerone.com/spotify",
+      "platform": "",
+      "bounty": true,
+      "in_scope": [
+        "spotify.com",
+        "spotify.net",
+        "spotifyforbrands.com",
+        "backstage.io",
+        "forspotify.com",
+        "tospotify.com",
+        "fromspotify.com",
+        "atspotify.com",
+        "byspotify.com",
+        "withspotify.com",
+        "blackhistoryisnow.com",
+        "closetheplaygap.com",
+        "equalizerproject.com",
+        "eyeofthestormers.com",
+        "issa.website",
+        "lifeatspotify.com",
+        "atspotify.com",
+        "ninemusesfestival.com",
+        "play-portraits.com",
+        "poddamnthatsfunny.com",
+        "reviewvault.com",
+        "secretgenius.com",
+        "sonalytic.com",
+        "spotify-change.com",
+        "spotify-library.com",
+        "spotify.design",
+        "spotify.dev",
+        "spotify.live",
+        "stackenterprise.co",
+        "spotifycharts.com",
+        "spotifycodes.com",
+        "spotifyforpartners.com",
+        "spotifyforvendors.com",
+        "spotifymusicmatchmaker.com",
+        "spotifynewsroom.jp",
+        "spotifyonstage.com",
+        "spotifypodcastsummit.com",
+        "spotifypremium.jp",
+        "spotifyresonate.com",
+        "spotifysoundcheck.com",
+        "spotifyvault.com",
+        "timetoplayfair.com",
+        "extraordinariesonthemic.com",
+        "geistguest.com",
+        "gimletmedia.com",
+        "gimstaging.com",
+        "thesecrettovictory.com",
+        "niland.io",
+        "parcast.com",
+        "everynoise.com",
+        "soundtrap.com",
+        "betty.run",
+        "thenodbuysblack.com",
+        "megaphone-staging.fm",
+        "whooshkaa.com",
+        "podsights.com",
+        "pdst.io",
+        "pdst.fm",
+        "pod.link",
+        "chartable.com",
+        "chtbl.com"
+      ],
+      "out_of_scope":[
+        "preact.io",
+        "academy.soundtrap.com",
+        "megaphone.*",
+        "panoply.fm",
+        "audiol.ink",
+        "audiometric.*",
+        "howdoilistentopodcasts.com",
+        "podl.ink",
+        "thegriftpodcast.com",
+        "theonwardproject.com",
+        "tryapodcast.com",
+        "*.theringer.com"
+      ]
+    },
+    {
+      "name": "Square",
+      "program_url": "https://bugcrowd.com/square",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "squareup.com",
+        "square.com"
+      ],
+      "out_of_scope":[
+        "*.cash.me"
+      ]
+    },
+    {
+      "name": "Stanford-University",
+      "program_url": "https://uit.stanford.edu/security/bug-bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "stanford.edu"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Starbucks",
+      "program_url": "https://hackerone.com/starbucks",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "starbucks.co.jp",
+        "starbucks.com.cn",
+        "starbucks.co.kr",
+        "starbucks.fr",
+        "starbucks.co.uk",
+        "starbucks.com.br",
+        "starbucksreserve.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Statuspage",
+      "program_url": "https://bugcrowd.com/statuspage",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "statuspage.io"
+      ],
+      "out_of_scope":[
+        "metastatuspage.com",
+        "blog.statuspage.io"
+      ]
+    },
+    {
+      "name": "Stellantis",
+      "program_url": "https://bugcrowd.com/stellantis",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "driveuconnect.com",
+        "driveuconnect.eu"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Stripe",
+      "program_url": "https://hackerone.com/stripe",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "touchtechpayments.com",
+        "indiehackers.com",
+        "getbouncer.com",
+        "reckostaging.com",
+        "taxjar.com",
+        "reckoproduction.com",
+        "stripe.com",
+        "payable.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "T-Mobile-CZ",
+      "program_url": "https://www.t-mobile.cz/bug-bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "t-mobile.cz"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Takeaway",
+      "program_url": "https://bugcrowd.com/takeaway",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "takeaway.com",
+        "thuisbezorgd.nl",
+        "lieferando.de",
+        "lieferando.at",
+        "yourdelivery.de",
+        "scoober.com",
+        "citymeal.com",
+        "just-eat.fr",
+        "eat.ch",
+        "just-eat.no",
+        "just-eat.dk",
+        "pyszne.pl",
+        "bistro.sk",
+        "10bis.co.il",
+        "atarkasher.co.il",
+        "justeattakeaway.com",
+        "takeawayriders.com"
+      ],
+      "out_of_scope":[
+        "integration-takeaway.com"
+      ]
+    },
+    {
+      "name": "BCC",
+      "program_url": "https://app.intigriti.com/programs/bcc/bcc/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "bcc.nl"
+      ],
+      "out_of_scope":[
+        "fotoservice.bcc.nl",
+        "cadeaukaart.bcc.nl"
+      ]
+    },
+    {
+      "name": "CM",
+      "program_url": "https://app.intigriti.com/programs/cmcom/cmcom/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "ticketing.cm.com",
+        "cm.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Telenet",
+      "program_url": "https://www.intigriti.com/researcher/programs/telenet/telenetgroup/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "base.be",
+        "nextel.be",
+        "online-essentials.be",
+        "tadaam.be",
+        "telenet.be",
+        "telenet.tv",
+        "telenethotspot.be",
+        "telenettv.be",
+        "yeloplay.be"
+      ],
+      "out_of_scope":[
+        "*.access.telenet.be",
+        "*.inbel.telenet.be",
+        "*.static.telenet.be",
+        "*.kabel.telenet.be",
+        "*.web.cloud.telenet.be",
+        "home.base.be",
+        "users.telenet.be",
+        "business.telenet.be",
+        "mkt.telenet.be",
+        "sim.telenet.be",
+        "comm.base.be"
+      ]
+    },
+    {
+      "name": "Teleport",
+      "program_url": "https://hackerone.com/teleport",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "goteleport.com",
+        "gravitational.com",
+        "teleport.dev",
+        "teleportinfra.sh",
+        "gravitational.co",
+        "gravitational.io"
+      ],
+      "out_of_scope":[
+        "support.goteleport.com",
+        "*.teleport.sh",
+        "trust.goteleport.com"
+      ]
+    },
+    {
+      "name": "Ternoa",
+      "program_url": "https://hackenproof.com/ternoa/ternoa-web-and-apps",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "ternoa.network"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Tesla",
+      "program_url": "https://bugcrowd.com/tesla",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "tesla.com",
+        "tesla.cn",
+        "teslamotors.com",
+        "tesla.services",
+        "teslainsuranceservices.com",
+        "solarcity.com"
+      ],
+      "out_of_scope":[
+        "maxwell.com",
+        "employeefeedback.tesla.com",
+        "energysupport.tesla.com",
+        "bugbounty.zoho.com",
+        "engage.tesla.com",
+        "feedback.tesla.com",
+        "feedback.teslamotors.com",
+        "ir.teslamotors.com",
+        "ir.tesla.com",
+        "mkto.teslamotors.com",
+        "shop.eu.teslamotors.com"
+      ]
+    },
+    {
+      "name": "Threema",
+      "program_url": "https://gobugfree.com/programs/threema",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "threema.ch"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "TikTok",
+      "program_url": "https://hackerone.com/tiktok",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "tiktok.com",
+        "tiktokv.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Tinder",
+      "program_url": "https://hackerone.com/tinder",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "tinder.com",
+        "gotinder.com",
+        "tinderops.net",
+        "tstaging.com",
+        "tstaging.tools",
+        "tinderwebstaging.com"
+      ],
+      "out_of_scope":[
+        "go.tinder.com",
+        "www.help.tinder.com",
+        "gotinder.imgix.net",
+        "console.gotinder.com",
+        "party.tinder.com",
+        "open.tinder.com",
+        "matchmaker.tinder.com",
+        "invite.tinder.com",
+        "click.tinder.com"
+      ]
+    },
+    {
+      "name": "Torfs",
+      "program_url": "https://www.intigriti.com/programs/torfs/torfs/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "torfs.be",
+        "schoenentorfs.be",
+        "schoenentorfs.nl",
+        "torfs.nl"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Trello",
+      "program_url": "https://bugcrowd.com/trello",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "trello.com",
+        "trello.services"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Trustpilot",
+      "program_url": "https://hackerone.com/trustpilot",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "api.trustpilot.com",
+        "authenticate.trustpilot.com",
+        "invitations-api.trustpilot.com",
+        "b2b.trustpilot.com",
+        "trustpilot.com",
+        "widget.trustpilot.com",
+        "signup.business.trustpilot.com",
+        "emailsignature.trustpilot.com",
+        "share.trustpilot.com",
+        "business.trustpilot.com",
+        "legal.trustpilot.com"
+      ],
+      "out_of_scope":[
+        "*apidoc.trustpilot.com",
+        "*press.trustpilot.com",
+        "*support.trustpilot.com",
+        "trustpilotinfo.com",
+        "*ipo.trustpilot.com",
+        "*investors.trustpilot.com"
+      ]
+    },
+    {
+      "name": "Tumblr",
+      "program_url": "https://hackerone.com/automattic",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "tumblr.com",
+        "srvcs.tumblr.com",
+        "pressable.com",
+        "simplenote.com",
+        "simperium.com",
+        "intensedebate.com",
+        "happy.tools"
+      ],
+      "out_of_scope":[
+        "*.scrollkit.com",
+        "*.learnboost.com",
+        "*.txmblr.com",
+        "*.afterthedeadline.com",
+        "*.polishmywriting.com",
+        "*.survey.fm",
+        "*.poll.fm",
+        "atavist.com",
+        "try.pressable.com"
+      ]
+    },
+    {
+      "name": "Tweakers",
+      "program_url": "https://www.intigriti.com/programs/depersgroep/tweakers/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "tweakblogs.net",
+        "tweakers.net",
+        "tweakimg.net"
+      ],
+      "out_of_scope":[
+        "elect.tweakers.net"
+      ]
+    },
+    {
+      "name": "Twilio",
+      "program_url": "https://bugcrowd.com/twilio",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "twilio.com",
+        "sendgrid.com",
+        "segment.com",
+        "authy.com"
+      ],
+      "out_of_scope":[
+        "support.twilio.com",
+        "s.signal.twilio.com",
+        "ahoy-eloqua.twilio.com",
+        "store.twilio.com",
+        "lab.authy.com",
+        "dashboard.authy.com",
+        "twiliotraining.com",
+        "surveys.twilio.com",
+        "support.sendgrid.com",
+        "status.sendgrid.com",
+        "issues-sendgrid.dev.twilio.com",
+        "community.segment.com"
+      ]
+    },
+    {
+      "name": "Twitter",
+      "program_url": "https://hackerone.com/twitter",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "twitter.com",
+        "vine.co",
+        "twimg.com",
+        "gnip.com"
+      ],
+      "out_of_scope":[
+        "twitterflightschool.com",
+        "t.co",
+        "status.twitter.com"
+      ]
+    },
+    {
+      "name": "Uber",
+      "program_url": "https://hackerone.com/uber",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "uber.com",
+        "ubereats.com",
+        "uberinternal.com"
+      ],
+      "out_of_scope":[
+        "*.xchangeleasing.com",
+        "*.carnextdoor.com.au",
+        "*.lioncityrentals.com.sg",
+        "uber.onelogin.com",
+        "newsroom.uber.com",
+        "love.uber.com",
+        "*.ot.to",
+        "*.uber.com.cn",
+        "bizblog.uber.com",
+        "drive.uber.com",
+        "eng.uber.com",
+        "people.uber.com",
+        "et.uber.com",
+        "*.support-uber.com",
+        "*.uberscoot.us",
+        "*.sobi.io"
+      ]
+    },
+    {
+      "name": "Ubiquiti",
+      "program_url": "https://hackerone.com/ui",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "ubnt.com",
+        "ui.com",
+        "uisp.com"
+      ],
+      "out_of_scope":[
+        "forum-es.ui.com",
+        "forum-pt.ui.com",
+        "security.community.ui.com",
+        "*.go.ubnt.com"
+      ]
+    },
+    {
+      "name": "Udemy",
+      "program_url": "https://hackerone.com/udemy",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "udemy.com"
+      ],
+      "out_of_scope":[
+        "about.udemy.com",
+        "affiliates.udemy.com",
+        "blog.udemy.com",
+        "business.udemy.com",
+        "community.udemy.com",
+        "teach.udemy.com",
+        "research.udemy.com",
+        "support.udemy.com",
+        "mi.udemy.com",
+        "helpdesk.udemy.com",
+        "copyright.udemy.com",
+        "design.udemy.com",
+        "government.udemy.com",
+        "keeplearning.udemy.com",
+        "legalteam.udemy.com",
+        "people-innovators.udemy.com",
+        "theupskillingimperative.com",
+        "translate.udemy.com",
+        "ufbsupport.udemy.com",
+        "coding-exercises.udemy.com"
+      ]
+    },
+    {
+      "name": "UNDER-ARMOUR",
+      "program_url": "https://bugcrowd.com/underarmour",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "mapmyfitness.com",
+        "mapmyrun.com",
+        "mapmyride.com",
+        "mapmywalk.com",
+        "api.ua.com",
+        "underarmour.com",
+        "underarmour.co.uk"
+      ],
+      "out_of_scope":[
+        "uabiz.com",
+        "investor.underarmour.com",
+        "productsafety.underarmour.com",
+        "uabusiness.force.com",
+        "underarmour.jobs",
+        "uateamcatalogs.com",
+        "uaretail.com",
+        "plankindustries.com"
+      ]
+    },
+    {
+      "name": "Unikrn",
+      "program_url": "https://hackerone.com/unikrn",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "unikrn.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Unity",
+      "program_url": "https://bugcrowd.com/unity",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "unity3d.com",
+        "unity.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "ALSCO",
+      "program_url": "https://hackerone.com/alsco?type=team",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "checksw.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Uphold",
+      "program_url": "https://app.intigriti.com/programs/Uphold/upholdcom/detail",
+      "platform": "intigriti",
+      "bounty": true,
+      "in_scope": [
+        "uphold.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Upwork",
+      "program_url": "https://bugcrowd.com/upwork",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "upwork.com"
+      ],
+      "out_of_scope":[
+        "support.upwork.com",
+        "community.stage.upwork.com",
+        "community.upwork.com",
+        "stage.upwork.com",
+        "e.upwork.com",
+        "status.upwork.com",
+        "signature.upwork.com",
+        "careers.upwork.com",
+        "tip.upwork.com",
+        "tip.upwork.com",
+        "pardot.upwork.com"
+      ]
+    },
+    {
+      "name": "Urban-Company",
+      "program_url": "https://hackerone.com/urbancompany",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "urbancompany.com",
+        "urbanclap.com"
+      ],
+      "out_of_scope":[
+        "careers.urbancompany.com",
+        "careers.urbanclap.com",
+        "blog.urbancompany.com",
+        "blog.urbanclap.com",
+        "sherlock.urbanclap.com",
+        "sherlock.urbancompany.com",
+        "ops.urbanclap.com",
+        "ops.urbancompany.com",
+        "configs.urbanclap.com",
+        "configs.urbancompany.com",
+        "jarvis.urbanclap.com",
+        "jarvis.urbancompany.com",
+        "pro.urbanclap.com",
+        "dev*.urbanclap.com"
+      ]
+    },
+    {
+      "name": "USAA",
+      "program_url": "https://bugcrowd.com/usaa",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "usaa.com",
+        "usaainsurance.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Valve-Software",
+      "program_url": "https://hackerone.com/valve",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "dota2.com",
+        "steampowered.com",
+        "valvesoftware.com",
+        "steamgames.com",
+        "steamcommunity.com",
+        "teamfortress.com",
+        "counter-strike.net",
+        "playartifact.com"
+      ],
+      "out_of_scope":[
+        "valvestore.forfansbyfans.com",
+        "store.valvesoftware.com",
+        "translation.steampowered.com",
+        "list.valvesoftware.com"
+      ]
+    },
+    {
+      "name": "Vanilla",
+      "program_url": "https://hackerone.com/vanilla",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "vanillaforums.com",
+        "vanillacommunities.com",
+        "vanillastaging.com",
+        "vanilladevelopment.com",
+        "vanillacommunity.com"
+      ],
+      "out_of_scope":[
+        "library.vanillaforums.com",
+        "blog.vanillaforums.com",
+        " pages.vanillaforums.com"
+      ]
+    },
+    {
+      "name": "Yahoo",
+      "program_url": "https://hackerone.com/yahoo",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "yahoo.com",
+        "yahooapis.com",
+        "yimg.com",
+        "rivals.com",
+        "finance.yahoo.com",
+        "bid.yahoo.com",
+        "tw.news.yahoo.com",
+        "tw.mall.yahoo.com",
+        "flurry.com",
+        "news.yahoo.com",
+        "gemini.yahoo.com",
+        "admanager.yahoo.com",
+        "makers.com",
+        "buildseries.com",
+        "builtbygirls.com",
+        "calendar.yahoo.com",
+        "caldav.calendar.yahoo.com",
+        "ryot.org",
+        "engadget.com",
+        "techcrunch.com",
+        "autoblog.com",
+        "mail.aol.com",
+        "forums.rivals.com",
+        "protrade.com",
+        "verizondigitalmedia.com",
+        "aol.com",
+        "aol.fr",
+        "aol.de",
+        "aol.co.uk",
+        "aol.jp",
+        "aol.in",
+        "aol.ca",
+        "search.aol.ca",
+        "search.aol.co.uk",
+        "search.aol.com",
+        "recherche.aol.fr",
+        "suche.aol.de",
+        "help.aol.com",
+        "assistance.aol.fr",
+        "help.aol.co.uk",
+        "hilfe.aol.de",
+        "aolpublishers.com",
+        "isp.netscape.com",
+        "lite.aol.com",
+        "compuserve.com"
+      ],
+      "out_of_scope":[
+        "*.yahoo.net",
+        "*.yahoo.com.tw",
+        "*.sportz.io",
+        "au.yahoo.com",
+        "nz.yahoo.com",
+        "*.yahoo-net.jp",
+        "*.aolcdn.com",
+        "*.yahoo.com.hk",
+        "*.aolmail.com",
+        "jobs.builtbygirls.com",
+        "store.builtbygirls.com",
+        "builtbygirls.mybrightsites.com",
+        "*.vdms.com",
+        "*.cn.engadget.com",
+        "*.chinese.engadget.com",
+        "*.japanese.engadget.com",
+        "jobs.engadget.com",
+        "news.huffingtonpost.com",
+        "coupons.huffpost.com",
+        "huffpost.atlassian.net",
+        "huffpoststuff.com",
+        "subscribe.huffpost.com",
+        "sg.auctions.yahoo.com",
+        "demo.molo.ch",
+        "*.molo.ch",
+        "*.ryotfilms.com",
+        "*.ryot.com",
+        "*.portal.ryot.com",
+        "*.spot.im",
+        "*.crunchbase.com",
+        "*.tc-appunite.herokuapp.com",
+        "*.parsely.com",
+        "*.swiftype.com",
+        "*.marketo.com",
+        "*.urbanairship.com",
+        "*.sailthru.com",
+        "*.tcdisrupt.com",
+        "*.bit.ly",
+        "*.thomsonreuters.com",
+        "*.tinypass.com",
+        "ismarus-ap-94600.tw.juiker.net",
+        "*.tw.juiker.net",
+        "*.straas.net",
+        "ecfme.famiport.com.tw",
+        "news.campaign.yahoo.com.tw",
+        "*.verizonwireless.com",
+        "*.verizon.com",
+        "*.verizon.net",
+        "*.vzw.com",
+        "*.myvzw.com",
+        "*.verizonbusiness.com",
+        "smart.vzbuilders.com",
+        "*.webhosting.yahoo.com",
+        "shop.yahoosports.com",
+        "*.sendbird.com",
+        "*.rivalsfanstore.com",
+        "*.rivalscamps.com",
+        "*.rivalscampseries.com",
+        "crs-prd.aws.oath.cloud",
+        "deals.o2.verizonmedia.com",
+        "adaptv.advertising.com",
+        "console.oneadserver.aol.com",
+        "oneapi.aol.com",
+        "onecreative.aol.com",
+        "alephd.com",
+        "onemobile.aol.com",
+        "vidible.tv",
+        "onevideo.aol.com",
+        "ssp.verizonmedia.com",
+        "ext.api.ssp.aol.com",
+        "store.vzbuilders.com",
+        "sales.oath.com"
+      ]
+    },
+    {
+      "name": "Viator",
+      "program_url": "https://bugcrowd.com/viator",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "viator.com",
+        "toursgds.com",
+        "viatorinc.com"
+      ],
+      "out_of_scope":[
+        "*.rc.viator.com",
+        "*.sandbox.viator.com",
+        "*.partner.viator.com",
+        "agentcenter.viator.com ",
+        "operatorresources.viator.com",
+        "partnerresources.viator.com"
+      ]
+    },
+    {
+      "name": "Vimeo",
+      "program_url": "https://hackerone.com/vimeo",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "cloud.vimeo.com",
+        "vimeopro.com",
+        "vimeo.com",
+        "vhx.tv",
+        "magisto.com",
+        "livestream.com",
+        "new.livestream.com"
+      ],
+      "out_of_scope":[
+        "*.email.vimeo.com",
+        "vimeo.atlassian.net",
+        "*.wirewax.com",
+        "*.wirewax.app",
+        "*.wibbitz.com",
+        "*.test.magisto.com",
+        "*.dev.magisto.com",
+        "applause2.magisto.com",
+        "Gamma.magisto.com",
+        "delta.magisto.com",
+        "int001.vimeo.magisto.com",
+        "int002.vimeo.magisto.com",
+        "int003.vimeo.magisto.com",
+        "int004.vimeo.magisto.com",
+        "int005vimeo.magisto.com",
+        "eta.magisto.com",
+        "epsilon.magisto.com",
+        "omega.magisto.com",
+        "*.cdn.magisto.com",
+        "livestreamapis.com",
+        "*.boost.livestream.com",
+        "store.livestream.com",
+        "publishing-api.livestream.com",
+        "help.livestream.com",
+        "status.livestream.com"
+      ]
+    },
+    {
+      "name": "VOLKIS",
+      "program_url": "https://www.volkis.com.au/vulnerability-disclosure",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "volkis.com.au",
+        "volk.is"
+      ],
+      "out_of_scope":[
+        "*.volkis.io"
+      ]
+    },
+    {
+      "name": "Wealthsimple",
+      "program_url": "https://hackerone.com/wealthsimple",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "wealthsimple.com",
+        "simpletax.ca"
+      ],
+      "out_of_scope":[
+        "help.wealthsimple.com",
+        "support.wealthsimple.com",
+        "work.wealthsimple.com"
+      ]
+    },
+    {
+      "name": "Western-Union",
+      "program_url": "https://bugcrowd.com/westernunion",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "westernunion.com",
+        "westernunion.fr",
+        "westernunion.de",
+        "westernunion.no",
+        "westernunion.se",
+        "westernunion.ca",
+        "westernunion.nl",
+        "westernunion.es",
+        "westernunion.ie",
+        "westernunion.ch",
+        "westernunion.pt",
+        "westernunion.be",
+        "westernunion.dk",
+        "westernunion.fi",
+        "westernunion.pl",
+        "westernunion.ee",
+        "westernunion.lu",
+        "westernunion.gr",
+        "westernunion.at",
+        "westernunion.it",
+        "westernunion.co.nz",
+        "westernunion.co.uk",
+        "westernunion.com.au",
+        "westernunionbank.com",
+        "wu.com"
+      ],
+      "out_of_scope":[
+        "payments.westernunion.com",
+        "rewardcircle.westernunion.com",
+        "wuprepaid.at",
+        "onlinefx.westernunion.com",
+        "globalpay.westernunion.com",
+        "payee.globalpay.westernunion.com",
+        "auth.globalpay.westernunion.com",
+        "gpfi.globalpay.westernunion.com",
+        "wuedge.com",
+        "trackpayments.westernunion.com",
+        "masspay.api.westernunion.com",
+        "*.convera.com",
+        "*.internationalpayments.com",
+        "business.westernunion.com"
+      ]
+    },
+    {
+      "name": "WhiteBIT",
+      "program_url": "https://hackenproof.com/whitebit/whitebit",
+      "platform": "hackenproof",
+      "bounty": true,
+      "in_scope": [
+        "whitebit.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Wickr",
+      "program_url": "https://wickr.com/security/bug-bounty",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "wickr.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Wise",
+      "program_url": "https://bugcrowd.com/wise",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "transferwise.com",
+        "wise.com"
+      ],
+      "out_of_scope":[
+        "*.tw.com",
+        "*.tw.ee",
+        "*.transferwise.tech",
+        "brand.wise.com",
+        "links.wise.com",
+        "widgets.transferwise.com",
+        "brand.transferwise.com",
+        "bootstrap.transferwise.com",
+        "links.transferwise.com",
+        "status.wise.com",
+        "status.transferwise.com",
+        "tech.transferwise.com"
+      ]
+    },
+    {
+      "name": "Xiaomi",
+      "program_url": "https://hackerone.com/xiaomi",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "mi.com",
+        "xiaomi.com",
+        "miui.com",
+        "xiaomiyoupin.com",
+        "miwifi.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Yelp",
+      "program_url": "https://hackerone.com/yelp",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "yelp.com",
+        "yelp-support.com",
+        "yelpwifi.com",
+        "yelptop100.com"
+      ],
+      "out_of_scope":[
+        "engineeringblog.yelp.com",
+        "blog.yelp.com",
+        "yelp-ir.com",
+        "cloud.e.yelp-business.com",
+        "yelp-press.com",
+        "yelp.careers"
+      ]
+    },
+    {
+      "name": "YNAB",
+      "program_url": "https://bugcrowd.com/ynab",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "youneedabudget.com"
+      ],
+      "out_of_scope":[
+        "support.youneedabudget.com",
+        "app.youneedabudget.com",
+        "docs.youneedabudget.com",
+        "forum.youneedabudget.com",
+        "develop-app.youneedabudget.com"
+      ]
+    },
+    {
+      "name": "X-Series",
+      "program_url": "https://bugcrowd.com/x-series",
+      "platform": "bugcrowd",
+      "bounty": true,
+      "in_scope": [
+        "vendhq.com"
+      ],
+      "out_of_scope":[
+        "partners.vendhq.com",
+        "track.api.vendhq.com",
+        "support.vendhq.com",
+        "your-store.vendecommerce.com",
+        "partnerportal.vendhq.com",
+        "vendhq.force.com",
+        "vendimageuploadcdn.global.ssl.fastly.net"
+      ]
+    },
+    {
+      "name": "Zendesk",
+      "program_url": "https://hackerone.com/zendesk",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "zendesk.com",
+        "smooch.io",
+        "zopim.com",
+        "futuresimple.com",
+        "getbase.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Zoho",
+      "program_url": "https://bugbounty.zoho.com/bb/info",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "site24x7.com",
+        "manageengine.com",
+        "qntrl.com",
+        "trainercentral.com",
+        "zoho.com"
+      ],
+      "out_of_scope":[
+      ]
+    },
+    {
+      "name": "Zomato",
+      "program_url": "https://hackerone.com/zomato",
+      "platform": "hackerone",
+      "bounty": true,
+      "in_scope": [
+        "zomato.com",
+        "zdev.net",
+        "zomans.com",
+        "hyperpure.com",
+        "runnr.in"
+      ],
+      "out_of_scope":[
+        "business-blog.zomato.com",
+        "blog.zomato.com",
+        "community.zomato.com",
+        "www.zomatobook.com",
+        "success.zomato.com",
+        "dev.hyperpure.com",
+        "devapi.hyperpure.com",
+        "devpod.hyperpure.com",
+        "send.zomato.com",
+        "staging*.runnr.in"
+      ]
+    },
+    {
+      "name": "Smartling",
+      "program_url": "https://help.smartling.com/hc/en-us/articles/360008147833-Bug-Bounty-Policy",
+      "platform": "self_hosted",
+      "bounty": true,
+      "in_scope": [
+        "smartling.com",
+        "verbalizeit.com"
+      ],
+      "out_of_scope":[
+      ]
+    }
+  ]
+}
